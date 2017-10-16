@@ -175,6 +175,44 @@
                                         </div>
                                         <div class="from-register-by-rally" hidden>
                                             <button class="btn btn-link return-to-main-menu"><i class="fa fa-arrow-left"></i> back</button>
+                                            <form name="formulaireDeReponse" id="formulaireDeReponse" action="EnregistrementReponseRally.php" method="POST" >
+
+
+                                                <div class="form-group col-lg-6">
+                                                    <input name="titre"  placeholder="Titre (ex: Comtesse, Monsieur, Baron, ...)" class="form-control " required>
+
+                                                </div>
+                                                <div class="form-group col-lg-6">
+
+                                                    <input name="nom"  placeholder="Nom" class="form-control " required>
+
+                                                </div>
+                                                <div class="form-group col-lg-6">
+
+                                                    <input name="prenom"  placeholder="Prénom" class="form-control " required>
+
+                                                </div>
+                                                <div class="form-group col-lg-6">
+
+                                                    <input name="mail"  placeholder="E-mail" class="form-control " required>
+                                                </div>
+                                                <div class="form-group col-lg-6">
+
+                                                    <select class="form-control " required>
+                                                        <option value="Ballade">Ballade</option>
+                                                        <option value="Nec Plus Ultra">Nec Plus Ultra</option>
+                                                        <option value="Txto">Txto</option>
+                                                        <option value="Carambole">Carambole</option>
+                                                        <option value="Kiliwatch-Pleine Lune">Kiliwatch-Pleine Lune</option>
+                                                    </select>
+
+                                                </div>
+
+                                                <div class="form-group col-lg-6">
+
+                                                    <input type="submit" value="Envoyer" class="form-control btn btn-primary ">
+                                                </div>
+                                            </form>
                                         </div>
 
                                         <div class="from-register-other" hidden>

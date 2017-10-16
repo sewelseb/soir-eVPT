@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9546618-6c83-45bf-99f5-f56199d13fb2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vues/images/background.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modeles/controlCode.php" afterPath="$PROJECT_DIR$/Modeles/controlCode.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vues/css/style.css" afterPath="$PROJECT_DIR$/Vues/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vues/home.php" afterPath="$PROJECT_DIR$/Vues/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vues/js/jqwery.js" afterPath="$PROJECT_DIR$/Vues/js/jqwery.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +16,8 @@
       <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Vues/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="146" column="150" lean-forward="false" selection-start-line="146" selection-start-column="150" selection-end-line="146" selection-end-column="150" />
+            <state relative-caret-position="583">
+              <caret line="205" column="115" lean-forward="false" selection-start-line="205" selection-start-column="115" selection-end-line="205" selection-end-column="115" />
               <folding />
             </state>
           </provider>
@@ -93,8 +88,8 @@
       <list>
         <option value="$PROJECT_DIR$/Modeles/controlCode.php" />
         <option value="$PROJECT_DIR$/Vues/js/jqwery.js" />
-        <option value="$PROJECT_DIR$/Vues/home.php" />
         <option value="$PROJECT_DIR$/Vues/css/style.css" />
+        <option value="$PROJECT_DIR$/Vues/home.php" />
       </list>
     </option>
   </component>
@@ -209,12 +204,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508178283617</updated>
-      <workItem from="1508178285009" duration="3792000" />
+      <workItem from="1508178285009" duration="4109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3792000" />
+    <option name="totallyTimeSpent" value="4109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1698" height="1028" extended-state="6" />
@@ -286,8 +281,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Vues/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="146" column="150" lean-forward="false" selection-start-line="146" selection-start-column="150" selection-end-line="146" selection-end-column="150" />
+        <state relative-caret-position="583">
+          <caret line="205" column="115" lean-forward="false" selection-start-line="205" selection-start-column="115" selection-end-line="205" selection-end-column="115" />
           <folding />
         </state>
       </provider>
