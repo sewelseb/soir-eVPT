@@ -1,0 +1,431 @@
+<?php
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
+?>
+<?php
+	include("ConexionBDD.php");
+	include("ObjClient.php");
+	include("Modeles/chargementDesPhotos.php");
+?>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Fragrances</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+		<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+		<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="all">
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+		<script type="text/javascript" src="js/jquery-1.6.js" ></script>
+		<script type="text/javascript" src="js/cufon-yui.js"></script>
+		<script type="text/javascript" src="js/cufon-replace.js"></script>
+  		<script type="text/javascript" src="js/Ubuntu_400.font.js"></script>
+  		<script type="text/javascript" src="js/Ubuntu_700.font.js"></script>
+		<script type="text/javascript" src="js/bgSlider.js" ></script>
+		<script type="text/javascript" src="js/script.js" ></script>
+		<script type="text/javascript" src="js/pages.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/bg.js" ></script>
+		<script type="text/javascript" src="js/tabs.js"></script>
+		<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+		<!--[if lt IE 9]>
+			<script type="text/javascript" src="js/html5.js"></script>
+		<![endif]-->
+		<!--[if lt IE 7]>
+			<div style='clear:both;text-align:center;position:relative'>
+				<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0"  alt="" /></a>
+			</div>
+		<![endif]-->
+	</head>
+	<body id="page1">
+		<div class="spinner"></div>
+		<div id="bgSlider"></div>
+		<div class="extra">
+			<div class="main">
+				<div class="box">
+<!-- header -->
+					<header>
+						<!--<h1><a href="index.html" id="logo">Soirée fragrance</a></h1>-->
+						<h1 ><a href="index.php" class="titreH1">Soirée <br/>Fragrances</a></h1>
+						<nav>
+							<ul id="menu">
+								<li><a href="#!/page_Repondre"><span></span><strong>Répondre</strong></a></li>
+								<li><a href="#!/page_About"><span></span><strong>Plan d'accès</strong></a></li>
+								<li><a href="#!/page_Portfolio"><span></span><strong>Photos</strong></a></li>
+								<li><a href="#!/page_Services"><span></span><strong>Le thème</strong></a></li>
+								<li><a href="#!/page_Contact"><span></span><strong>Contact</strong></a></li>
+							</ul>
+						</nav>
+					</header>
+<!--content -->
+					<article id="content">
+						<div class="ic">More Website Templates @ TemplateMonster.com -September 19th, 2011!</div>
+						<ul>
+							<li id="page_Repondre">
+								<div class="box1">
+									<div class="inner">
+										<a href="#" class="close" data-type="close"><span></span></a>
+										<div class="wrapper pad_bot1">
+											<!--<div class="col1">-->
+											<div>
+												<h2>Formulaire de réponse</h2>
+												<form id="formulaireDeReponse" action="EnregistrementReponse.php" method="POST" >
+													<table>
+														<tr>
+															<td>
+																Titre:
+															</td>
+															<td>
+																<input name="titre" id="titre" required>
+															</td>
+														</tr>
+														<tr>
+															<td>	
+																Nom:
+															</td>
+															<td>
+																<input name="nom" id="nom" required>
+															</td>
+														</tr>
+														<tr>
+															<td>	
+																Prénom:
+															</td>
+															<td>
+																<input name="prenom" id="prenom" required>
+															</td>
+														</tr>
+														<tr>
+															<td>	
+																E-mail:
+															</td>
+															<td>
+																<input name="mail" id="mail" required>
+															</td>
+														</tr>
+														<tr>
+															<td>	
+																Présence à la soirée:
+															</td>
+															<td>
+																<input type="radio" name="presence" id="presence" value="true"> Je viens à la soirée </input> <br/>
+																<input type="radio" name="presence" id="presence" value="false"> Je  ne viens pas à la soirée </input>
+															</td>
+														</tr>
+														<tr>
+															<td>	
+																Message:
+															</td>
+															<td>
+																<textarea name="message" id="message" row="400" cols="50">
+																</textarea>
+															</td>
+														</tr>
+														<tr>
+															<td>	
+																
+															</td>
+															<td>
+																<input type="submit" value="Envoyer" >
+															</td>
+														</tr>
+														
+													</table>
+												</form>
+											</div>
+											
+										</div>
+										
+										
+									</div>
+								</div>
+							</li>
+							<li id="page_About">
+								<div class="box1">
+									<div class="inner">
+										<a href="#" class="close" data-type="close"><span></span></a>
+										<h2>Plant d'accès</h2>
+										 	<p>
+										 		<strong>Adresse </strong>: Rue Haute 8, 1460 Ittre 
+							 				</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2529.7734754877506!2d4.262733000000007!3d50.64989799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3cb9ba0abea11%3A0x141a62caedccda86!2sPalais+de+Plume!5e0!3m2!1sfr!2s!4v1397118753833" width="600" height="450" frameborder="0" style="border:0"></iframe>							 				
+									</div>
+								</div>
+							</li>
+							<li id="page_Portfolio">
+								<div class="box1">
+									<div class="inner">
+										<a href="#" class="close" data-type="close"><span></span></a>
+										<div class="wrapper tabs">
+											<div class="col1">
+												<h2>Catégories</h2>
+												<ul class="nav">
+													<li class="selected"><a href="#Fragrance"><span></span><strong>Fragrances</strong></a></li>
+													<li><a href="#Ambiance"><span></span><strong>Ambiance</strong></a></li>
+													<li><a href="#Coctail"><span></span><strong>Cocktail</strong></a></li>
+													<li><a href="#Dinner"><span></span><strong>Dîner</strong></a></li>
+													<li><a href="#Soirée"><span></span><strong>Soirée</strong></a></li>
+													
+												</ul>
+											</div>
+											<div class="col2 pad_left1">
+												<div class="tab-content" id="Fragrance">
+													<h2>Fragrances</h2>
+													<div class="wrapper">
+														<figure  class="left marg_right1"><a href="images/large_640x.jpg" class="lightbox-image" data-type="prettyPhoto[group2]"><span></span><img src="images/large_640x.jpg" alt="" width="202" height="128"></a></figure>
+														<figure class="left"><a href="images/Chanelno5-carole-bouquet-dominique-issemann-1997.jpg" class="lightbox-image" data-type="prettyPhoto[group2]"><span></span><img src="images/Chanelno5-carole-bouquet-dominique-issemann-1997.jpg" alt="" width="202" height="128"></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/7e0ad2ef-8b44-4edf-96d4-06a87db1e3e1_bg.jpg" class="lightbox-image" data-type="prettyPhoto[group2]"><span></span><img src="images/7e0ad2ef-8b44-4edf-96d4-06a87db1e3e1_bg.jpg" alt="" width="202" height="128"></a></figure>
+														<figure class="left"><a href="images/Gucci-Premiere.jpeg" class="lightbox-image" data-type="prettyPhoto[group2]"><span></span><img src="images/Gucci-Premiere.jpeg" alt="" width="202" height="128"></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/02eac4265cddeeafafd949575b1fe79e.jpg" class="lightbox-image" data-type="prettyPhoto[group2]"><span></span><img src="images/02eac4265cddeeafafd949575b1fe79e.jpg" alt="" width="202" height="128"></a></figure>
+														<figure class="left"><a href="images/1339175470_alexander-skarsgard-zoom.jpg" class="lightbox-image" data-type="prettyPhoto[group2]"><span></span><img src="images/1339175470_alexander-skarsgard-zoom.jpg" alt="" width="202" height="128"></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/no5_ad_visual.jpg" class="lightbox-image" data-type="prettyPhoto[group2]"><span></span><img src="images/no5_ad_visual.jpg" alt="" width="202" height="128"></a></figure>
+														<figure class="left"><a href="images/Paco-Rabanne-Lady-Million-EDP-80-ml_za10_o_3.jpg" class="lightbox-image" data-type="prettyPhoto[group2]"><span></span><img src="images/Paco-Rabanne-Lady-Million-EDP-80-ml_za10_o_3.jpg" alt="" width="202" height="128"></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/paltrow-hugoboss.jpg" class="lightbox-image" data-type="prettyPhoto[group2]"><span></span><img src="images/paltrow-hugoboss.jpg" alt="" width="202" height="128"></a></figure>
+														<figure class="left"><a href="images/mark-ronson-fendi-fragrance-fan-di-fendi-pour-homme-ad__oPt.jpg" class="lightbox-image" data-type="prettyPhoto[group2]"><span></span><img src="images/mark-ronson-fendi-fragrance-fan-di-fendi-pour-homme-ad__oPt.jpg" alt="" width="202" height="128"></a></figure>
+													</div>
+												</div>
+												<div class="tab-content" id="Objects">
+													<h2>3D Objects</h2>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img3.jpg" class="lightbox-image" data-type="prettyPhoto[group1]"><span></span><img src="images/page3_img3.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img4.jpg" class="lightbox-image" data-type="prettyPhoto[group1]"><span></span><img src="images/page3_img4.jpg" alt=""></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img5.jpg" class="lightbox-image" data-type="prettyPhoto[group1]"><span></span><img src="images/page3_img5.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img6.jpg" class="lightbox-image" data-type="prettyPhoto[group1]"><span></span><img src="images/page3_img6.jpg" alt=""></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img7.jpg" class="lightbox-image" data-type="prettyPhoto[group1]"><span></span><img src="images/page3_img7.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img8.jpg" class="lightbox-image" data-type="prettyPhoto[group1]"><span></span><img src="images/page3_img8.jpg" alt=""></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img9.jpg" class="lightbox-image" data-type="prettyPhoto[group1]"><span></span><img src="images/page3_img9.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img10.jpg" class="lightbox-image" data-type="prettyPhoto[group1]"><span></span><img src="images/page3_img10.jpg" alt=""></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img1.jpg" class="lightbox-image" data-type="prettyPhoto[group1]"><span></span><img src="images/page3_img1.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img2.jpg" class="lightbox-image" data-type="prettyPhoto[group1]"><span></span><img src="images/page3_img2.jpg" alt=""></a></figure>
+													</div>
+												</div>
+												<div class="tab-content" id="Wedding">
+													<h2>Wedding</h2>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img5.jpg" class="lightbox-image" data-type="prettyPhoto[group3]"><span></span><img src="images/page3_img5.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img6.jpg" class="lightbox-image" data-type="prettyPhoto[group3]"><span></span><img src="images/page3_img6.jpg" alt=""></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img7.jpg" class="lightbox-image" data-type="prettyPhoto[group3]"><span></span><img src="images/page3_img7.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img8.jpg" class="lightbox-image" data-type="prettyPhoto[group3]"><span></span><img src="images/page3_img8.jpg" alt=""></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img9.jpg" class="lightbox-image" data-type="prettyPhoto[group3]"><span></span><img src="images/page3_img9.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img10.jpg" class="lightbox-image" data-type="prettyPhoto[group3]"><span></span><img src="images/page3_img10.jpg" alt=""></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img1.jpg" class="lightbox-image" data-type="prettyPhoto[group3]"><span></span><img src="images/page3_img1.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img2.jpg" class="lightbox-image" data-type="prettyPhoto[group3]"><span></span><img src="images/page3_img2.jpg" alt=""></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img3.jpg" class="lightbox-image" data-type="prettyPhoto[group3]"><span></span><img src="images/page3_img3.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img4.jpg" class="lightbox-image" data-type="prettyPhoto[group3]"><span></span><img src="images/page3_img4.jpg" alt=""></a></figure>
+													</div>
+												</div>
+												<div class="tab-content" id="Reportage">
+													<h2>Reportage</h2>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img7.jpg" class="lightbox-image" data-type="prettyPhoto[group4]"><span></span><img src="images/page3_img7.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img8.jpg" class="lightbox-image" data-type="prettyPhoto[group4]"><span></span><img src="images/page3_img8.jpg" alt=""></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img9.jpg" class="lightbox-image" data-type="prettyPhoto[group4]"><span></span><img src="images/page3_img9.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img10.jpg" class="lightbox-image" data-type="prettyPhoto[group4]"><span></span><img src="images/page3_img10.jpg" alt=""></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img1.jpg" class="lightbox-image" data-type="prettyPhoto[group4]"><span></span><img src="images/page3_img1.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img2.jpg" class="lightbox-image" data-type="prettyPhoto[group4]"><span></span><img src="images/page3_img2.jpg" alt=""></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img3.jpg" class="lightbox-image" data-type="prettyPhoto[group4]"><span></span><img src="images/page3_img3.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img4.jpg" class="lightbox-image" data-type="prettyPhoto[group4]"><span></span><img src="images/page3_img4.jpg" alt=""></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img5.jpg" class="lightbox-image" data-type="prettyPhoto[group4]"><span></span><img src="images/page3_img5.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img6.jpg" class="lightbox-image" data-type="prettyPhoto[group4]"><span></span><img src="images/page3_img6.jpg" alt=""></a></figure>
+													</div>
+												</div>
+												<div class="tab-content" id="Advertising">
+													<h2>Advertising</h2>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img9.jpg" class="lightbox-image" data-type="prettyPhoto[group5]"><span></span><img src="images/page3_img9.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img10.jpg" class="lightbox-image" data-type="prettyPhoto[group5]"><span></span><img src="images/page3_img10.jpg" alt=""></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img1.jpg" class="lightbox-image" data-type="prettyPhoto[group5]"><span></span><img src="images/page3_img1.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img2.jpg" class="lightbox-image" data-type="prettyPhoto[group5]"><span></span><img src="images/page3_img2.jpg" alt=""></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img3.jpg" class="lightbox-image" data-type="prettyPhoto[group5]"><span></span><img src="images/page3_img3.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img4.jpg" class="lightbox-image" data-type="prettyPhoto[group5]"><span></span><img src="images/page3_img4.jpg" alt=""></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img5.jpg" class="lightbox-image" data-type="prettyPhoto[group5]"><span></span><img src="images/page3_img5.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img6.jpg" class="lightbox-image" data-type="prettyPhoto[group5]"><span></span><img src="images/page3_img6.jpg" alt=""></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img7.jpg" class="lightbox-image" data-type="prettyPhoto[group5]"><span></span><img src="images/page3_img7.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img8.jpg" class="lightbox-image" data-type="prettyPhoto[group5]"><span></span><img src="images/page3_img8.jpg" alt=""></a></figure>
+													</div>
+												</div>
+												<div class="tab-content" id="Portrait">
+													<h2>Portrait</h2>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img1.jpg" class="lightbox-image" data-type="prettyPhoto[group6]"><span></span><img src="images/page3_img1.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img2.jpg" class="lightbox-image" data-type="prettyPhoto[group6]"><span></span><img src="images/page3_img2.jpg" alt=""></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img3.jpg" class="lightbox-image" data-type="prettyPhoto[group6]"><span></span><img src="images/page3_img3.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img4.jpg" class="lightbox-image" data-type="prettyPhoto[group6]"><span></span><img src="images/page3_img4.jpg" alt=""></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img5.jpg" class="lightbox-image" data-type="prettyPhoto[group6]"><span></span><img src="images/page3_img5.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img6.jpg" class="lightbox-image" data-type="prettyPhoto[group6]"><span></span><img src="images/page3_img6.jpg" alt=""></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img7.jpg" class="lightbox-image" data-type="prettyPhoto[group6]"><span></span><img src="images/page3_img7.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img8.jpg" class="lightbox-image" data-type="prettyPhoto[group6]"><span></span><img src="images/page3_img8.jpg" alt=""></a></figure>
+													</div>
+													<div class="wrapper">
+														<figure class="left marg_right1"><a href="images/big_img9.jpg" class="lightbox-image" data-type="prettyPhoto[group6]"><span></span><img src="images/page3_img9.jpg" alt=""></a></figure>
+														<figure class="left"><a href="images/big_img10.jpg" class="lightbox-image" data-type="prettyPhoto[group6]"><span></span><img src="images/page3_img10.jpg" alt=""></a></figure>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li id="page_Services">
+								<div class="box1">
+									<div class="inner">
+										<a href="#" class="close" data-type="close"><span></span></a>
+										<div class="wrapper pad_bot3">
+											<h2>Fragrance</h2>
+											
+										<div class="wrapper pad_bot3">
+											<figure class="left marg_right1"><iframe width="250" height="170" src="//www.youtube.com/embed/aTbG1hG2AFA" frameborder="0" allowfullscreen></iframe></figure>
+											<p class="color1 pad_bot2"><strong>Dior Homme</strong></p>
+											<p>Dior Homme Fragrance Uncensored Director's Cut starring Robert Pattinson, directed by Romain Gavras. Music by Led Zeppelin.</p>
+										</div>
+										<div class="wrapper pad_bot3">
+											<figure class="left marg_right1"><iframe width="250" height="170" src="//www.youtube.com/embed/7K2GAoBTuc4" frameborder="0" allowfullscreen></iframe></figure>
+											<p class="color1 pad_bot2"><strong>Gucci Guilty</strong></p>
+											<p>Gucci Guilty</p>
+										</div>
+										<div class="wrapper pad_bot3">
+											<figure class="left marg_right1"><iframe width="250" height="170" src="//www.youtube.com/embed/Q8lxGGx0R04" frameborder="0" allowfullscreen></iframe></figure>
+											<p class="color1 pad_bot2"><strong>INVICTUS - Paco Rabanne </strong></p>
+											<p>Paco Rabanne presents Invictus TV spot. The commercial by Alexandre Courtès.</p>
+										</div>
+										<div class="wrapper pad_bot3">
+											<figure class="left marg_right1"><iframe width="250" height="170" src="//www.youtube.com/embed/4VPHVygoca4" frameborder="0" allowfullscreen></iframe></figure>
+											<p class="color1 pad_bot2"><strong>Paco Rabanne - 1 Million</strong></p>
+											<p>Paco Rabanne - 1 Million</p>
+										</div>
+										
+									</div>
+								</div>
+							</li>
+							<li id="page_Contact">
+								<div class="box1">
+									<div class="inner">
+										<a href="#" class="close" data-type="close"><span></span></a>
+										<div class="wrapper">
+											<div class="col1">
+												<h2>Contact Info</h2>
+												<p>Xavier de Beauffort</p>
+												64 rue Louis Hap<br>
+												1040 Etterbeek<br/><br/>
+												<p class="cols">Telephone:<br>
+														
+														Email:</p>
+												<p>+02 762 69 77<br>
+														
+														<a href="mailto:" class="link1">xdb@live.be</a></p>
+												
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</div>
+							</li>
+							<li id="page_More">
+								<div class="box1">
+									<div class="inner">
+										<a href="#" class="close" data-type="close"><span></span></a>
+
+										<h2>Read more</h2>
+										<div class="wrapper pad_bot3">
+											<figure class="left marg_right1"><img src="images/page4_img1.jpg" alt=""></figure>
+											<p class="color1 pad_bot2"><strong>Et harum quidem rerum</strong></p>
+											<p>Cupiditate noprovident similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas.</p>
+										</div>
+										<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+										<p>Occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+										<div class="wrapper pad_bot3">
+											<figure class="left marg_right1"><img src="images/page4_img2.jpg" alt=""></figure>
+											<p class="color1 pad_bot2"><strong>Blanditiis praesentium voluptatum</strong></p>
+											<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti iusto odio dignissimos ducimus qui atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+										</div>
+										<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+										<p>Qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+										<p>Occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</article>
+<!-- / content -->
+				</div>
+			</div>
+			<div class="block"></div>
+		</div>
+		<div class="bg1">
+			<div class="main">
+<!-- footer -->
+				<footer>
+					<div class="bg_spinner"></div>
+					<ul class="pagination">
+						<li class="current"><a href="images/bg_img1.jpg">1</a></li>
+						<li><a href="images/bg_img2.jpg">2</a></li>
+						<li><a href="images/bg_img3.jpg">3</a></li>
+					</ul>
+					<div class="col_1">
+						<!--<a href="index.html" id="footer_logo">Sébastien de Beauffort</a>-->
+					</div>
+					<div class="col_2">
+						Developed by <a rel="nofollow" href="http://www.qwerteach.com/index.php?page=profil&profil=sebastien" target="_blank">Sébastien de Beauffort</a>
+						<!-- {%FOOTER_LINK} -->
+					</div>
+				</footer>
+<!-- / footer-->
+			</div>
+		</div>
+		<script type="text/javascript"> Cufon.now(); </script>
+		<script>
+		$(window).load(function() {
+			$('.spinner').fadeOut();
+			$('body').css({overflow:'inherit'})
+		})
+		</script>
+	</body>
+</html>
