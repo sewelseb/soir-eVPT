@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9546618-6c83-45bf-99f5-f56199d13fb2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vues/css/style.css" afterPath="$PROJECT_DIR$/Vues/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vues/home.php" afterPath="$PROJECT_DIR$/Vues/home.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +17,8 @@
       <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Vues/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="205" column="115" lean-forward="false" selection-start-line="205" selection-start-column="115" selection-end-line="205" selection-end-column="115" />
+            <state relative-caret-position="3762">
+              <caret line="172" column="19" lean-forward="false" selection-start-line="172" selection-start-column="19" selection-end-line="172" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -36,8 +37,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vues/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="1072" column="22" lean-forward="false" selection-start-line="1072" selection-start-column="22" selection-end-line="1072" selection-end-column="22" />
+            <state relative-caret-position="0">
+              <caret line="1061" column="40" lean-forward="false" selection-start-line="1061" selection-start-column="40" selection-end-line="1061" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -76,8 +77,9 @@
       <find>intro</find>
       <find>intro-text</find>
       <find>btn-prim</find>
-      <find>j'ai u</find>
       <find>image-enthete</find>
+      <find>j'ai u</find>
+      <find>bhFont</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -204,12 +206,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508178283617</updated>
-      <workItem from="1508178285009" duration="4109000" />
+      <workItem from="1508178285009" duration="4919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4109000" />
+    <option name="totallyTimeSpent" value="4919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1698" height="1028" extended-state="6" />
@@ -273,16 +275,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Vues/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="1072" column="22" lean-forward="false" selection-start-line="1072" selection-start-column="22" selection-end-line="1072" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="1061" column="40" lean-forward="false" selection-start-line="1061" selection-start-column="40" selection-end-line="1061" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Vues/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="205" column="115" lean-forward="false" selection-start-line="205" selection-start-column="115" selection-end-line="205" selection-end-column="115" />
+        <state relative-caret-position="3762">
+          <caret line="172" column="19" lean-forward="false" selection-start-line="172" selection-start-column="19" selection-end-line="172" selection-end-column="19" />
           <folding />
         </state>
       </provider>

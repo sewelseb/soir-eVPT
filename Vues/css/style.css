@@ -1051,17 +1051,15 @@ and (max-width : 480px) {
 }
 
 
-@font-face {
-	font-family: 'bhFont';
-}
+
 
 .bhFont{
-	font-family: bhFont;
+	font-family: "Open Sans",sans-serif;
 	font-size: 1.5em;
-	color:#dd0016;
+	color:black;
 }
 .bhFontSmall{
-	font-family: bhFont;
+	font-family: "Open Sans",sans-serif;
 	color: #dd0016;
 
 }

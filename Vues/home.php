@@ -240,21 +240,7 @@
                                                 </div>
                                                 <div class="form-group col-lg-6">
 
-                                                    <span class="Text-Blanc">Présence à la soirée:</span>
-
-                                                    <div class="radio">
-                                                        <label class="radio-inline"><input type="radio" name="presence" id="presence" value="true"  > <span class="Text-Blanc">Je viens à la soirée</span> </input> <br/></label>
-                                                    </div>
-                                                    <div class="radio">
-                                                        <label class="radio-inline"><input type="radio" name="presence" id="presence" value="false" > <span class="Text-Blanc">Je  ne viens pas à la soirée</span> </input></label>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group col-lg-6">
-                                                    <textarea name="message" id="message" row="400" cols="50" placeholder="Message" class="form-control"></textarea>
-                                                </div>
-                                                <div class="form-group col-lg-6">
-
-                                                    <input type="submit" value="Envoyer" class="form-control">
+                                                    <input type="submit" value="Envoyer" class="btn btn-primary form-control">
                                                 </div>
                                             </form>
                                         </div>
@@ -280,16 +266,8 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="section-title">
-                    <h2><b class="bhFont"><?php echo $theme; ?></b></h2>
-                    <H3 class="bhFont big-font">
-                        <b>Vienne, capitale de l’Autriche... Mais aussi pendant longtemps, capitale de l’empire autrichien puis austro-hongrois. Carrefour de l’Europe de l’Est, centre culturel important, la ville a durant cette période rayonné au travers tout le continent européen, tant artistiquement que intellectuellement.</b>
-                    </H3>
-                    <h3 class="bhFont big-font">
-                        <b>Et si vous vous replongiez dans la Vienne d’autrefois ? Et si vous rêviez de vous balader dans les allées du parc du château de Schönbrunn ? Et si vous tendiez l’oreille à la musique des plus grands compositeurs ? Et si vous dansiez sur quelques mesures de valse ? Et si vous preniez un café au Sacher Cafe ? Et si tout cela était possible, ne fut-ce que pour une nuit ? Allons, laissez-vous tenter, laissez-vous surprendre !</b>
-                    </h3>
-                    <h3 class="bhFont big-font">
-                        <b>Bienvenue à Vienne !</b>
-                    </h3>
+                    <h2><b class="bhFont">Soirée VPT un cable</b></h2>
+
                 </div>
             </div>
         </div>
@@ -317,8 +295,9 @@
             <div class="col-md-3">
                 <div class="section-text">
                     <h4>Pour nous contacter:</h4>
-                    <p><i class="fa fa-phone"></i> +32 477 24 69 49</p>
-                    <p><i class="fa fa-envelope"></i> jlwaucquez@hotmail.com</p>
+
+                    <p><i class="fa fa-envelope"></i> soiree@vpt.be</p>
+
                 </div>
             </div>
             <div class="col-md-6">
@@ -334,103 +313,98 @@
             <div class="col-lg-12 text-center">
                 <div class="section-title">
                     <h2><b class="bhFont">Photos</b></h2>
-                    <p>
-                        <a href="http://www.asyouwish.be/vienne/">
-                            Les photos de la soirée sont disponibles ici.<br/>
-                            http://www.asyouwish.be/vienne/
-                        </a>
-                    </p>
+
                 </div>
             </div>
         </div>
-<!--        <div class="row row-0-gutter">-->
-<!--            <!-- start portfolio item -->
-<!--            <div class="col-md-4 col-0-gutter">-->
-<!--                <div class="ot-portfolio-item">-->
-<!--                    <figure class="effect-bubba">-->
-<!--                        <img src="Vues/images/demo/portfolio-1.jpg" alt="img02" class="img-responsive" />-->
-<!--                        <figcaption>-->
-<!--                            <h2>Dean & Letter</h2>-->
-<!--                            <p>Branding, Design</p>-->
-<!--                            <a href="#" data-toggle="modal" data-target="#Modal-1">View more</a>-->
-<!--                        </figcaption>-->
-<!--                    </figure>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <!-- end portfolio item -->
-<!--            <!-- start portfolio item -->
-<!--            <div class="col-md-4 col-0-gutter">-->
-<!--                <div class="ot-portfolio-item">-->
-<!--                    <figure class="effect-bubba">-->
-<!--                        <img src="Vues/images/demo/portfolio-2.jpg" alt="img02" class="img-responsive" />-->
-<!--                        <figcaption>-->
-<!--                            <h2>Startup Framework</h2>-->
-<!--                            <p>Branding, Web Design</p>-->
-<!--                            <a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>-->
-<!--                        </figcaption>-->
-<!--                    </figure>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <!-- end portfolio item -->
-<!--            <!-- start portfolio item -->
-<!--            <div class="col-md-4 col-0-gutter">-->
-<!--                <div class="ot-portfolio-item">-->
-<!--                    <figure class="effect-bubba">-->
-<!--                        <img src="Vues/images/demo/portfolio-3.jpg" alt="img02" class="img-responsive" />-->
-<!--                        <figcaption>-->
-<!--                            <h2>Lamp & Velvet</h2>-->
-<!--                            <p>Branding, Web Design</p>-->
-<!--                            <a href="#" data-toggle="modal" data-target="#Modal-3">View more</a>-->
-<!--                        </figcaption>-->
-<!--                    </figure>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <!-- end portfolio item -->
-<!--        </div>-->
-<!--        <div class="row row-0-gutter">-->
-<!--            <!-- start portfolio item -->
-<!--            <div class="col-md-4 col-0-gutter">-->
-<!--                <div class="ot-portfolio-item">-->
-<!--                    <figure class="effect-bubba">-->
-<!--                        <img src="Vues/images/demo/portfolio-4.jpg" alt="img02" class="img-responsive" />-->
-<!--                        <figcaption>-->
-<!--                            <h2>Smart Name</h2>-->
-<!--                            <p>Branding, Design</p>-->
-<!--                            <a href="#" data-toggle="modal" data-target="#Modal-4">View more</a>-->
-<!--                        </figcaption>-->
-<!--                    </figure>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <!-- end portfolio item -->
-<!--            <!-- start portfolio item -->
-<!--            <div class="col-md-4 col-0-gutter">-->
-<!--                <div class="ot-portfolio-item">-->
-<!--                    <figure class="effect-bubba">-->
-<!--                        <img src="Vues/images/demo/portfolio-5.jpg" alt="img02" class="img-responsive" />-->
-<!--                        <figcaption>-->
-<!--                            <h2>Fast People</h2>-->
-<!--                            <p>Branding, Web Design</p>-->
-<!--                            <a href="#" data-toggle="modal" data-target="#Modal-5">View more</a>-->
-<!--                        </figcaption>-->
-<!--                    </figure>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <!-- end portfolio item -->
-<!--            <!-- start portfolio item -->
-<!--            <div class="col-md-4 col-0-gutter">-->
-<!--                <div class="ot-portfolio-item">-->
-<!--                    <figure class="effect-bubba">-->
-<!--                        <img src="Vues/images/demo/portfolio-6.jpg" alt="img02" class="img-responsive" />-->
-<!--                        <figcaption>-->
-<!--                            <h2>Kites & Stars</h2>-->
-<!--                            <p>Branding, Web Design</p>-->
-<!--                            <a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>-->
-<!--                        </figcaption>-->
-<!--                    </figure>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <!-- end portfolio item -->
-<!--        </div>-->
+        <div class="row row-0-gutter">
+
+            <div class="col-md-4 col-0-gutter">
+                <div class="ot-portfolio-item">
+                    <figure class="effect-bubba">
+                        <img src="Vues/images/demo/portfolio-1.jpg" alt="img02" class="img-responsive" />
+                        <figcaption>
+                            <h2>Dean & Letter</h2>
+                            <p>Branding, Design</p>
+                            <a href="#" data-toggle="modal" data-target="#Modal-1">View more</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <!-- end portfolio item
+            <!-- start portfolio item-->
+            <div class="col-md-4 col-0-gutter">
+                <div class="ot-portfolio-item">
+                    <figure class="effect-bubba">
+                        <img src="Vues/images/demo/portfolio-2.jpg" alt="img02" class="img-responsive" />
+                        <figcaption>
+                            <h2>Startup Framework</h2>
+                            <p>Branding, Web Design</p>
+                            <a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <!-- end portfolio item
+            <!-- start portfolio item-->
+            <div class="col-md-4 col-0-gutter">
+                <div class="ot-portfolio-item">
+                    <figure class="effect-bubba">
+                        <img src="Vues/images/demo/portfolio-3.jpg" alt="img02" class="img-responsive" />
+                        <figcaption>
+                            <h2>Lamp & Velvet</h2>
+                            <p>Branding, Web Design</p>
+                            <a href="#" data-toggle="modal" data-target="#Modal-3">View more</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <!-- end portfolio item-->
+        </div>
+        <div class="row row-0-gutter">
+            <!-- start portfolio item-->
+            <div class="col-md-4 col-0-gutter">
+                <div class="ot-portfolio-item">
+                    <figure class="effect-bubba">
+                        <img src="Vues/images/demo/portfolio-4.jpg" alt="img02" class="img-responsive" />
+                        <figcaption>
+                            <h2>Smart Name</h2>
+                            <p>Branding, Design</p>
+                            <a href="#" data-toggle="modal" data-target="#Modal-4">View more</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <!-- end portfolio item
+            <!-- start portfolio item-->
+            <div class="col-md-4 col-0-gutter">
+                <div class="ot-portfolio-item">
+                    <figure class="effect-bubba">
+                        <img src="Vues/images/demo/portfolio-5.jpg" alt="img02" class="img-responsive" />
+                        <figcaption>
+                            <h2>Fast People</h2>
+                            <p>Branding, Web Design</p>
+                            <a href="#" data-toggle="modal" data-target="#Modal-5">View more</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <!-- end portfolio item
+            <!-- start portfolio item-->
+            <div class="col-md-4 col-0-gutter">
+                <div class="ot-portfolio-item">
+                    <figure class="effect-bubba">
+                        <img src="Vues/images/demo/portfolio-6.jpg" alt="img02" class="img-responsive" />
+                        <figcaption>
+                            <h2>Kites & Stars</h2>
+                            <p>Branding, Web Design</p>
+                            <a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <!-- end portfolio item-->
+        </div>
     </div><!-- end container -->
 </section>
 
