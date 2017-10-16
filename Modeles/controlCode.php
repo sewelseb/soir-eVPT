@@ -1,5 +1,5 @@
 <?php
-    $code="sAW17.09";
+    $code="vpt";
     $reponse['response']="false";
     $_SESSION['code']=false;
     //var_dump($_POST);

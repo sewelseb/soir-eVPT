@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-    <title>Soirée - <?php echo $theme ?></title>
+    <title>VPT un cable | VPT</title>
     <!-- Bootstrap core CSS -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -34,7 +34,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class=" bhFont" href="#page-top"><span class="bhFont"><?php echo $theme ?></span></a>
+            <a class=" " href="#page-top"><span class="bhFont">Soirée VPT</span></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -77,15 +77,15 @@
 
                 <div class="item">
                     <div class="owl-slider-item">
-                        <img src="Vues/images/demo/slider-1.jpg" class="img-responsive image-enthete" alt="portfolio" width="100%" >
+                        <img src="Vues/images/background.jpg" class="img-responsive image-enthete" alt="portfolio"  >
                         <div class="intro-text">
                             <!--<H1 class="Text-Blanc">
                                 <a href="http://www.asyouwish.be/vienne/" class="Text-Blanc">
                                     Cliquez ici pour voir les photos de la soirée.<br/>
                                 </a>
                             </H1>-->
-                            
-                            <H1 class="Text-Blanc"><span class="">Répondre</span></H1>
+
+                            <H1 class="Text-Blanc"><span class="">Obtenir mon invitation</span></H1>
 
                             <?php
                                 if (isset($_SESSION['connexionSuccessful']) && $_SESSION['connexionSuccessful'])
@@ -123,47 +123,103 @@
                                 <?php
                             }
                             ?>
-
-                                <form name="formulaireDeReponse" id="formulaireDeReponse" action="EnregistrementReponse.php" method="POST" >
-
-
-                                    <div class="form-group col-lg-6">
-                                                <input name="titre" id="titre" placeholder="Titre (ex: Comtesse, Monsieur, Baron, ...)" class="form-control" required>
-
-                                    </div>
-                                    <div class="form-group col-lg-6">
-
-                                        <input name="nom" id="nom" placeholder="Nom" class="form-control" required>
-
-                                    </div>
-                                    <div class="form-group col-lg-6">
-
-                                        <input name="prenom" id="prenom" placeholder="Prénom" class="form-control" required>
-
-                                    </div>
-                                    <div class="form-group col-lg-6">
-
-                                        <input name="mail" id="mail" placeholder="E-mail" class="form-control" required>
-                                    </div>
-                                    <div class="form-group col-lg-6">
-
-                                        <span class="Text-Blanc">Présence à la soirée:</span>
-
-                                        <div class="radio">
-                                            <label class="radio-inline"><input type="radio" name="presence" id="presence" value="true"  > <span class="Text-Blanc">Je viens à la soirée</span> </input> <br/></label>
+                                        <div class="row main-menu">
+                                            <div class="col-lg-12 ">
+                                                <div class="row">
+                                                    <div class="col-lg-4">
+                                                        <button class="btn btn-primary btn-lg btn-main btn-code-promo">Code promo</button>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <button class="btn btn-primary btn-lg btn-main btn-rally">Rallye</button>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <button class="btn btn-primary btn-lg btn-main  btn-register-form">Autre</button>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="radio">
-                                            <label class="radio-inline"><input type="radio" name="presence" id="presence" value="false" > <span class="Text-Blanc">Je  ne viens pas à la soirée</span> </input></label>
-                                        </div>
-                                    </div>
-                                    <div class="form-group col-lg-6">
-                                        <textarea name="message" id="message" row="400" cols="50" placeholder="Message" class="form-control"></textarea>
-                                    </div>
-                                    <div class="form-group col-lg-6">
+                                        <div class="from-register-by-code" hidden>
+                                            <button class="btn btn-link return-to-main-menu"><i class="fa fa-arrow-left"></i> back</button>
+                                            <form name="formulaireDeReponse" id="formulaireDeReponse" action="EnregistrementReponseCodePromo.php" method="POST" >
 
-                                        <input type="submit" value="Envoyer" class="form-control">
-                                    </div>
-                                </form>
+
+                                                <div class="form-group col-lg-6">
+                                                    <input name="titre"  placeholder="Titre (ex: Comtesse, Monsieur, Baron, ...)" class="form-control " required>
+
+                                                </div>
+                                                <div class="form-group col-lg-6">
+
+                                                    <input name="nom"  placeholder="Nom" class="form-control " required>
+
+                                                </div>
+                                                <div class="form-group col-lg-6">
+
+                                                    <input name="prenom"  placeholder="Prénom" class="form-control " required>
+
+                                                </div>
+                                                <div class="form-group col-lg-6">
+
+                                                    <input name="mail"  placeholder="E-mail" class="form-control " required>
+                                                </div>
+                                                <div class="form-group col-lg-6">
+
+                                                    <input name="codePromo"  placeholder="Code Promo" class="form-control " required>
+
+                                                </div>
+
+                                                <div class="form-group col-lg-6">
+
+                                                    <input type="submit" value="Envoyer" class="form-control btn btn-primary ">
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="from-register-by-rally" hidden>
+                                            <button class="btn btn-link return-to-main-menu"><i class="fa fa-arrow-left"></i> back</button>
+                                        </div>
+
+                                        <div class="from-register-other" hidden>
+                                            <button class="btn btn-link return-to-main-menu"><i class="fa fa-arrow-left"></i> back</button>
+                                            <form name="formulaireDeReponse" id="formulaireDeReponse" action="EnregistrementReponse.php" method="POST" >
+
+
+                                                <div class="form-group col-lg-6">
+                                                            <input name="titre" id="titre" placeholder="Titre (ex: Comtesse, Monsieur, Baron, ...)" class="form-control" required>
+
+                                                </div>
+                                                <div class="form-group col-lg-6">
+
+                                                    <input name="nom" id="nom" placeholder="Nom" class="form-control" required>
+
+                                                </div>
+                                                <div class="form-group col-lg-6">
+
+                                                    <input name="prenom" id="prenom" placeholder="Prénom" class="form-control" required>
+
+                                                </div>
+                                                <div class="form-group col-lg-6">
+
+                                                    <input name="mail" id="mail" placeholder="E-mail" class="form-control" required>
+                                                </div>
+                                                <div class="form-group col-lg-6">
+
+                                                    <span class="Text-Blanc">Présence à la soirée:</span>
+
+                                                    <div class="radio">
+                                                        <label class="radio-inline"><input type="radio" name="presence" id="presence" value="true"  > <span class="Text-Blanc">Je viens à la soirée</span> </input> <br/></label>
+                                                    </div>
+                                                    <div class="radio">
+                                                        <label class="radio-inline"><input type="radio" name="presence" id="presence" value="false" > <span class="Text-Blanc">Je  ne viens pas à la soirée</span> </input></label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-lg-6">
+                                                    <textarea name="message" id="message" row="400" cols="50" placeholder="Message" class="form-control"></textarea>
+                                                </div>
+                                                <div class="form-group col-lg-6">
+
+                                                    <input type="submit" value="Envoyer" class="form-control">
+                                                </div>
+                                            </form>
+                                        </div>
                             </div>
                         </div>
 

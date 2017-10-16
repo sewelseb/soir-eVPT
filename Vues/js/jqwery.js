@@ -21,28 +21,26 @@ $('#testCode').click(function(){
     });
 });
 
-var rad = document.formulaireDeReponse.presence;
-var prev = null;
-for(var i = 0; i < rad.length; i++) {
-    rad[i].onclick = function() {
-        //(prev)? console.log(prev.value):null;
-        if(this !== prev) {
-            prev = this;
-        }
-        //console.log(this.value);
-        if (this.value=='true')
-        {
-            document.getElementById('valseRefus').pause();
-            document.getElementById('valseRefus').currentTime = 0;
-            document.getElementById('valseAccepte').play();
 
-        }
-        else
-        {
-            //console.log ('test');
-            document.getElementById('valseAccepte').pause();
-            document.getElementById('valseAccepte').currentTime = 0;
-            document.getElementById('valseRefus').play();
-        }
-    };
-}
+
+$('.btn-code-promo').click(function(){
+    $('.main-menu').hide('slow');
+    $('.from-register-by-code').show('slow');
+});
+
+$('.btn-rally').click(function(){
+    $('.main-menu').hide('slow');
+    $('.from-register-by-rally').show('slow');
+});
+
+$('.btn-register-form').click(function(){
+    $('.main-menu').hide('slow');
+    $('.from-register-other').show('slow');
+});
+
+$('.return-to-main-menu').click(function(){
+    $('.from-register-by-code').hide('slow');
+    $('.from-register-by-rally').hide('slow');
+    $('.from-register-other').hide('slow');
+    $('.main-menu').show('slow');
+});
