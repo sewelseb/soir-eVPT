@@ -10,6 +10,26 @@ require_once ('Reponse.php');
 
 class ReponseManager
 {
+    private $_listeReponse;
+
+    /**
+     * @return mixed
+     */
+    public function getListeReponse()
+    {
+        return $this->_listeReponse;
+    }
+
+    /**
+     * @param mixed $listeReponse
+     */
+    public function setListeReponse($listeReponse)
+    {
+        $this->_listeReponse = $listeReponse;
+    }
+
+
+
     public function save(Reponse $reponse, PDO $PDO)
     {
         $PDO->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -41,5 +61,33 @@ class ReponseManager
         return $PDO->lastInsertId();
     }
 
-    
+    public function getAll(PDO $PDO)
+    {
+
+        $i=0;
+        $liste = array();
+        $reqListeClients=$PDO->query('SELECT * FROM reponse ORDER BY id');
+        while ($clientBdd=$reqListeClients->fetch())
+            {
+                $reponse= new Reponse();
+//                    $client->hydratePlusId($clientBdd['id'], $clientBdd['titre'], $clientBdd['nom'], $clientBdd['prenom'], $clientBdd['presence_soiree'], $clientBdd['message'],$clientBdd['mail']);
+                $reponse->setId($clientBdd['id']);
+                $reponse->setType($clientBdd['response_type']);
+                $reponse->setTitre($clientBdd['titre']);
+                $reponse->setPrenom($clientBdd['prenom']);
+                $reponse->setNom($clientBdd['nom']);
+                $reponse->setEmail($clientBdd['email']);
+                $reponse->setRally($clientBdd['rally']);
+                $reponse->setCodePromo($clientBdd['code_promo']);
+
+
+
+
+                $liste[$i]=$reponse;
+                echo 'truc';
+
+                $i++;
+            }
+        $this->setListeReponse($liste);
+    }
 }

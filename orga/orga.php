@@ -3,6 +3,7 @@
 	include('../ConexionBDD.php');
 	include('objAdmin.php');
 	include_once('../ObjClient.php');
+    require_once('../Modeles/objects/ReponseManager.php');
 
 	$admin= new Admin();
 	$conecte=$admin->verificationConecte($bdd);
@@ -13,6 +14,10 @@
 
 		$acceptation=0;
 		$reffus=0;
+
+		$reponseManager = new ReponseManager();
+		$reponseManager->getAll($bdd);
+
 //		foreach ($admin->getListeClients() as $client)
 //			{
 //				if ($client->getPresence()==1)
@@ -89,9 +94,9 @@
 							
 							-->
 							<ul>
-								<li><a href="#top" id="top-link" class="skel-panels-ignoreHref"><span class="fa fa-home">Réponses Positives (<?php echo $acceptation; ?>)</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-panels-ignoreHref"><span class="fa fa-th">Réponses Négatives (<?php echo $reffus; ?>)</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-panels-ignoreHref"><span class="fa fa-user">Toutes les réponses (<?php echo ($reffus+$acceptation); ?>)</span></a></li>
+								<li><a href="#top" id="top-link" class="skel-panels-ignoreHref"><span class="fa fa-home">Réponses des rallys </span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-panels-ignoreHref"><span class="fa fa-th">Réponses Code Promo </span></a></li>
+								<li><a href="#about" id="about-link" class="skel-panels-ignoreHref"><span class="fa fa-user">Réponse payantes </span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-panels-ignoreHref"><span class="fa fa-envelope">Contact</span></a></li>
 							</ul>
 						</nav>
@@ -123,7 +128,7 @@
 							<a href="/orga/orga.php" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
 
 							<header>
-								<h2 class="alt">Liste des réponses Positives (<?php echo $acceptation; ?>)</h2>
+								<h2 class="alt">Réponses des rallyes </h2>
 							</header>
 							
 							<p>
@@ -142,22 +147,20 @@
 											<strong>Nom</strong><br/>
 										</td>
 										<td>
-											<strong>Message</strong><br/>
-										</td>
-										<td>
 											<strong>Mail</strong><br/>
 										</td>
 										<td>
-											<strong>Présence</strong><br/>
+											<strong>Rallye</strong><br/>
 										</td>
 										
 									</tr>
 									<?php
 										//var_dump($admin->getListeClients());
-										foreach ($admin->getListeClients() as $client) 
+										foreach ($reponseManager->getListeReponse() as $client)
 											{
-												if ($client->getPresence()==1)
+												if ($client->getType()=='rally')
 													{
+													    //var_dump($client);
 														?>
 														<tr>
 															<td>
@@ -173,13 +176,10 @@
 																<?php echo ($client->getNom()); ?><br/>
 															</td>
 															<td>
-																<?php echo ($client->getMessage()); ?><br/>
+																<?php echo ($client->getEmail()); ?><br/>
 															</td>
 															<td>
-																<?php echo ($client->getMail()); ?><br/>
-															</td>
-															<td>
-																<?php echo ($client->getPresence()); ?><br/>
+																<?php echo ($client->getRally()); ?><br/>
 															</td>
 															
 														</tr>
@@ -201,72 +201,67 @@
 						<div class="container">
 					
 							<header>
-								<h2 class="alt">Liste des réponses Négatives (<?php echo $reffus; ?>)</h2>
+								<h2 class="alt">Réponse par code promo</h2>
 							</header>
 							
 							<p>
 								<table border="1">
 									<tr style="border-bottom:1px solid">
-										<td>
-											<strong>Id</strong>
-										</td>
-										<td>
-											<strong>Titre</strong><br/>
-										</td>
-										<td>
-											<strong>Prenom</strong><br/>
-										</td>
-										<td>
-											<strong>Nom</strong><br/>
-										</td>
-										<td>
-											<strong>Message</strong><br/>
-										</td>
-										<td>
-											<strong>Mail</strong><br/>
-										</td>
-										<td>
-											<strong>Présence</strong><br/>
-										</td>
+                                        <td>
+                                            <strong>Id</strong>
+                                        </td>
+                                        <td>
+                                            <strong>Titre</strong><br/>
+                                        </td>
+                                        <td>
+                                            <strong>Prenom</strong><br/>
+                                        </td>
+                                        <td>
+                                            <strong>Nom</strong><br/>
+                                        </td>
+                                        <td>
+                                            <strong>Mail</strong><br/>
+                                        </td>
+                                        <td>
+                                            <strong>Code promo</strong><br/>
+                                        </td>
 										
 									</tr>
-									<?php
-										//var_dump($admin->getListeClients());
-										foreach ($admin->getListeClients() as $client) 
-											{
-												if ($client->getPresence()!=1)
-													{
-														?>
-														<tr>
-															<td>
-																<?php echo ($client->getId()); ?><br/>
-															</td>
-															<td>
-																<?php echo ($client->getTitre()); ?><br/>
-															</td>
-															<td>
-																<?php echo ($client->getPrenom()); ?><br/>
-															</td>
-															<td>
-																<?php echo ($client->getNom()); ?><br/>
-															</td>
-															<td>
-																<?php echo ($client->getMessage()); ?><br/>
-															</td>
-															<td>
-																<?php echo ($client->getMail()); ?><br/>
-															</td>
-															<td>
-																<?php echo ($client->getPresence()); ?><br/>
-															</td>
-															
-														</tr>
-													<?php
-													}
-												
-											}
+                                <?php
+                                //var_dump($admin->getListeClients());
+                                foreach ($reponseManager->getListeReponse() as $client)
+                                {
+                                    if ($client->getType()=='promoCode')
+                                    {
+                                        //var_dump($client);
+                                        ?>
+                                        <tr>
+                                            <td>
+                                                <?php echo ($client->getId()); ?><br/>
+                                            </td>
+                                            <td>
+                                                <?php echo ($client->getTitre()); ?><br/>
+                                            </td>
+                                            <td>
+                                                <?php echo ($client->getPrenom()); ?><br/>
+                                            </td>
+                                            <td>
+                                                <?php echo ($client->getNom()); ?><br/>
+                                            </td>
+                                            <td>
+                                                <?php echo ($client->getEmail()); ?><br/>
+                                            </td>
+                                            <td>
+                                                <?php echo ($client->getCodePromo()); ?><br/>
+                                            </td>
 
-									?>
+                                        </tr>
+                                        <?php
+                                    }
+
+                                }
+
+                                ?>
 								</table>
 							</p>
 
@@ -275,71 +270,67 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt">Toutes les réponses (<?php echo ($reffus+$acceptation); ?>)</h2>
+								<h2 class="alt">Réponse avec virement</h2>
 							</header>
 							
 							<p>
 								<table border="1">
 									<tr style="border-bottom:1px solid">
-										<td>
-											<strong>Id</strong>
-										</td>
-										<td>
-											<strong>Titre</strong><br/>
-										</td>
-										<td>
-											<strong>Prenom</strong><br/>
-										</td>
-										<td>
-											<strong>Nom</strong><br/>
-										</td>
-										<td>
-											<strong>Message</strong><br/>
-										</td>
-										<td>
-											<strong>Mail</strong><br/>
-										</td>
-										<td>
-											<strong>Présence</strong><br/>
-										</td>
+                                        <td>
+                                            <strong>Id</strong>
+                                        </td>
+                                        <td>
+                                            <strong>Titre</strong><br/>
+                                        </td>
+                                        <td>
+                                            <strong>Prenom</strong><br/>
+                                        </td>
+                                        <td>
+                                            <strong>Nom</strong><br/>
+                                        </td>
+                                        <td>
+                                            <strong>Mail</strong><br/>
+                                        </td>
+                                        <td>
+                                            <strong>Code de payement</strong><br/>
+                                        </td>
 										
 									</tr>
-									<?php
-										//var_dump($admin->getListeClients());
-										foreach ($admin->getListeClients() as $client) 
-											{
-												
-														?>
-														<tr>
-															<td>
-																<?php echo ($client->getId()); ?><br/>
-															</td>
-															<td>
-																<?php echo ($client->getTitre()); ?><br/>
-															</td>
-															<td>
-																<?php echo ($client->getPrenom()); ?><br/>
-															</td>
-															<td>
-																<?php echo ($client->getNom()); ?><br/>
-															</td>
-															<td>
-																<?php echo ($client->getMessage()); ?><br/>
-															</td>
-															<td>
-																<?php echo ($client->getMail()); ?><br/>
-															</td>
-															<td>
-																<?php echo ($client->getPresence()); ?><br/>
-															</td>
-															
-														</tr>
-													<?php
-												
-												
-											}
+                                <?php
+                                //var_dump($admin->getListeClients());
+                                foreach ($reponseManager->getListeReponse() as $client)
+                                {
+                                    if ($client->getType()=='Autre')
+                                    {
+                                        //var_dump($client);
+                                        ?>
+                                        <tr>
+                                            <td>
+                                                <?php echo ($client->getId()); ?><br/>
+                                            </td>
+                                            <td>
+                                                <?php echo ($client->getTitre()); ?><br/>
+                                            </td>
+                                            <td>
+                                                <?php echo ($client->getPrenom()); ?><br/>
+                                            </td>
+                                            <td>
+                                                <?php echo ($client->getNom()); ?><br/>
+                                            </td>
+                                            <td>
+                                                <?php echo ($client->getEmail()); ?><br/>
+                                            </td>
+                                            <td>
+                                                vpt-<?php echo ($client->getId()); ?><br/>
+                                            </td>
 
-									?>
+                                        </tr>
+                                        <?php
+                                    }
+
+                                }
+
+                                ?>
 								</table>
 							</p>
 
