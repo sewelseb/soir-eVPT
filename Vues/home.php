@@ -198,12 +198,13 @@
                                                 </div>
                                                 <div class="form-group col-lg-6">
 
-                                                    <select class="form-control " required>
+                                                    <select class="form-control " name="rally" required>
                                                         <option value="Ballade">Ballade</option>
                                                         <option value="Nec Plus Ultra">Nec Plus Ultra</option>
                                                         <option value="Txto">Txto</option>
                                                         <option value="Carambole">Carambole</option>
                                                         <option value="Kiliwatch-Pleine Lune">Kiliwatch-Pleine Lune</option>
+                                                        <option value="Oxygen">Oxygen</option>
                                                     </select>
 
                                                 </div>
