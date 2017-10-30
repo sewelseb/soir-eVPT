@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9546618-6c83-45bf-99f5-f56199d13fb2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnregistrementReponseCodePromo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnregistrementReponseRally.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modeles/objects/Reponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modeles/objects/ReponseManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConexionBDD.php" afterPath="$PROJECT_DIR$/ConexionBDD.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EnregistrementReponse.php" afterPath="$PROJECT_DIR$/EnregistrementReponse.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EnregistrementReponseCodePromo.php" afterPath="$PROJECT_DIR$/EnregistrementReponseCodePromo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EnregistrementReponseRally.php" afterPath="$PROJECT_DIR$/EnregistrementReponseRally.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modeles/objects/ReponseManager.php" afterPath="$PROJECT_DIR$/Modeles/objects/ReponseManager.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vues/home.php" afterPath="$PROJECT_DIR$/Vues/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/orga/objAdmin.php" afterPath="$PROJECT_DIR$/orga/objAdmin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/orga/orga.php" afterPath="$PROJECT_DIR$/orga/orga.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +22,8 @@
       <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vues/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="220" column="135" lean-forward="true" selection-start-line="220" selection-start-column="110" selection-end-line="220" selection-end-column="135" />
+            <state relative-caret-position="253">
+              <caret line="88" column="49" lean-forward="false" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -33,8 +32,8 @@
       <file leaf-file-name="EnregistrementReponseRally.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EnregistrementReponseRally.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="20" selection-end-column="38" />
+            <state relative-caret-position="396">
+              <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -60,23 +59,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReponseManager.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReponseManager.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Modeles/objects/ReponseManager.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="639">
-              <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+              <caret line="43" column="4" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
               <folding>
-                <marker date="1509396324078" expanded="true" signature="306:530" ph="INSERT INTO reponse... " />
+                <marker date="1509398397185" expanded="true" signature="306:530" ph="INSERT INTO reponse... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnregistrementReponse.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="orga.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orga/orga.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="25" column="13" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="25" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="objAdmin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orga/objAdmin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="682">
+              <caret line="115" column="47" lean-forward="true" selection-start-line="105" selection-start-column="16" selection-end-line="115" selection-end-column="47" />
+              <folding>
+                <marker date="1509398373121" expanded="true" signature="1194:1244" ph="SELECT * FRO... admin" />
+                <marker date="1509398373121" expanded="true" signature="1410:1477" ph="UPDATE admin... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnregistrementReponse.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EnregistrementReponse.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnregistrementReponseCodePromo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EnregistrementReponseCodePromo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -84,26 +116,6 @@
       </file>
       <file leaf-file-name="loginProcess.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loginProcess.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controlCode.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modeles/controlCode.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chargementDesPhotos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modeles/chargementDesPhotos.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -128,6 +140,7 @@
       <find>image-enthete</find>
       <find>j'ai u</find>
       <find>bhFont</find>
+      <find>Lieu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,11 +154,13 @@
         <option value="$PROJECT_DIR$/Vues/css/style.css" />
         <option value="$PROJECT_DIR$/Modeles/objects/Reponse.php" />
         <option value="$PROJECT_DIR$/ConexionBDD.php" />
-        <option value="$PROJECT_DIR$/Modeles/objects/ReponseManager.php" />
-        <option value="$PROJECT_DIR$/Vues/home.php" />
+        <option value="$PROJECT_DIR$/EnregistrementReponse.php" />
         <option value="$PROJECT_DIR$/EnregistrementReponseCodePromo.php" />
         <option value="$PROJECT_DIR$/EnregistrementReponseRally.php" />
-        <option value="$PROJECT_DIR$/EnregistrementReponse.php" />
+        <option value="$PROJECT_DIR$/Vues/home.php" />
+        <option value="$PROJECT_DIR$/orga/orga.php" />
+        <option value="$PROJECT_DIR$/orga/objAdmin.php" />
+        <option value="$PROJECT_DIR$/Modeles/objects/ReponseManager.php" />
       </list>
     </option>
   </component>
@@ -260,12 +275,12 @@
       <option name="presentableId" value="Default" />
       <updated>1508178283617</updated>
       <workItem from="1508178285009" duration="4967000" />
-      <workItem from="1509393892969" duration="3013000" />
+      <workItem from="1509393892969" duration="4502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7980000" />
+    <option name="totallyTimeSpent" value="9469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1698" height="1028" extended-state="6" />
@@ -398,34 +413,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConexionBDD.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="51" lean-forward="false" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vues/controlCode.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginProcess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnregistrementReponseCodePromo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -438,37 +429,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modeles/objects/ReponseManager.php">
+    <entry file="file://$PROJECT_DIR$/loginProcess.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-          <folding>
-            <marker date="1509396324078" expanded="true" signature="306:530" ph="INSERT INTO reponse... " />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConexionBDD.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="51" lean-forward="false" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnregistrementReponseCodePromo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Vues/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="220" column="135" lean-forward="true" selection-start-line="220" selection-start-column="110" selection-end-line="220" selection-end-column="135" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnregistrementReponseRally.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="20" selection-end-column="38" />
+        <state relative-caret-position="253">
+          <caret line="88" column="49" lean-forward="false" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EnregistrementReponse.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnregistrementReponseRally.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orga/orga.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orga/objAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="115" column="47" lean-forward="true" selection-start-line="105" selection-start-column="16" selection-end-line="115" selection-end-column="47" />
+          <folding>
+            <marker date="1509398373121" expanded="true" signature="1194:1244" ph="SELECT * FRO... admin" />
+            <marker date="1509398373121" expanded="true" signature="1410:1477" ph="UPDATE admin... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modeles/objects/ReponseManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="43" column="4" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+          <folding>
+            <marker date="1509398397185" expanded="true" signature="306:530" ph="INSERT INTO reponse... " />
+          </folding>
         </state>
       </provider>
     </entry>

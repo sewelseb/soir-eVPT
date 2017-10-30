@@ -18,4 +18,6 @@
     $reponse->setCodePromo($_POST['codePromo']);
 
     $reponseManager = new ReponseManager();
-    $reponseManager->save($reponse, $bdd);
+$reponse->setId($reponseManager->save($reponse, $bdd));
+$message='Merci '.$reponse->getPrenom().'. Votre réponse à bien été prise en compte';
+include ('Vues/home.php');

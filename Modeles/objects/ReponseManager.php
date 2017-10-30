@@ -35,7 +35,11 @@ class ReponseManager
             ':rally'=> $rally,
             ':code_de_payement'=> $codeDePayement
         ));
-        echo "\nPDO::errorInfo():\n";
-        var_dump($PDO->errorInfo());
+//        echo "\nPDO::errorInfo():\n";
+//        var_dump($PDO->errorInfo());
+
+        return $PDO->lastInsertId();
     }
+
+    
 }

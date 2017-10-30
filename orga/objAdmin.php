@@ -103,17 +103,17 @@
 		public function hydrateListeObjClient($bdd)
 			{
 				$i=0;
-				$reqListeClients=$bdd->query('SELECT * FROM reponse_clients ORDER BY nom');
-				while ($clientBdd=$reqListeClients->fetch())
-					{
-						$client= new Client();
-						$client->hydratePlusId($clientBdd['id'], $clientBdd['titre'], $clientBdd['nom'], $clientBdd['prenom'], $clientBdd['presence_soiree'], $clientBdd['message'],$clientBdd['mail']);
-						$liste[$i]=$client;
-						echo 'truc';
-						
-						$i++;
-					}
-				$this->setListeClients($liste);
+//				$reqListeClients=$bdd->query('SELECT * FROM reponse_clients ORDER BY nom');
+//				while ($clientBdd=$reqListeClients->fetch())
+//					{
+//						$client= new Client();
+//						$client->hydratePlusId($clientBdd['id'], $clientBdd['titre'], $clientBdd['nom'], $clientBdd['prenom'], $clientBdd['presence_soiree'], $clientBdd['message'],$clientBdd['mail']);
+//						$liste[$i]=$client;
+//						echo 'truc';
+//
+//						$i++;
+//					}
+//				$this->setListeClients($liste);
 			}
 	}
 

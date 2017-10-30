@@ -13,17 +13,17 @@
 
 		$acceptation=0;
 		$reffus=0;
-		foreach ($admin->getListeClients() as $client) 
-			{		
-				if ($client->getPresence()==1)
-					{
-						$acceptation++;
-					}
-				else
-					{
-						$reffus++;
-					}
-			}			
+//		foreach ($admin->getListeClients() as $client)
+//			{
+//				if ($client->getPresence()==1)
+//					{
+//						$acceptation++;
+//					}
+//				else
+//					{
+//						$reffus++;
+//					}
+//			}
 	}
 	else
 	{
