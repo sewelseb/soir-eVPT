@@ -17,6 +17,8 @@ class Reponse
     private $_codePromo;
     private $_rally;
     private $_codeDePayement;
+    private $_birthday;
+    private $_payed;
 
     /**
      * @return mixed
@@ -161,6 +163,39 @@ class Reponse
     {
         $this->_codeDePayement = $codeDePayement;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getBirthday()
+    {
+        return $this->_birthday;
+    }
+
+    /**
+     * @param mixed $birthday
+     */
+    public function setBirthday($birthday)
+    {
+        $this->_birthday = $birthday;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPayed()
+    {
+        return $this->_payed;
+    }
+
+    /**
+     * @param mixed $payed
+     */
+    public function setPayed($payed)
+    {
+        $this->_payed = $payed;
+    }
+
 
 
 

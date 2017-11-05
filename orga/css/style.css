@@ -1130,3 +1130,12 @@
 		{
 			background-color: #e8edec;
 		}
+		.text-danger{
+			color: red;
+		}
+		.text-success{
+			color: green;
+		}
+		.btn-succcess{
+			ursor: pointer;
+		}

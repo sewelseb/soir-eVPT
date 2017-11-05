@@ -76,8 +76,8 @@
 
 
                 <div class="item">
-                    <div class="owl-slider-item">
-                        <img src="Vues/images/background.jpg" class="img-responsive image-enthete" alt="portfolio"  >
+                    <div class="owl-slider-item img-container">
+                        <img src="Vues/Photos/cercle.jpg" class="img-responsive image-enthete" alt="portfolio"  >
                         <div class="intro-text">
                             <!--<H1 class="Text-Blanc">
                                 <a href="http://www.asyouwish.be/vienne/" class="Text-Blanc">
@@ -251,6 +251,10 @@
                                             </div>
                                             <div class="form-group col-lg-6">
 
+                                                <input name="birthday" id="birthday" placeholder="Date de Naissance" class="form-control" required>
+                                            </div>
+                                            <div class="form-group col-lg-6">
+
                                                 <input type="submit" value="Envoyer" class="btn btn-primary form-control">
                                             </div>
                                         </form>
@@ -310,7 +314,11 @@
             <div class="col-md-3">
                 <div class="section-text">
                     <h4>Adresse du jour: </h4>
-                    <p>Palais des Colonies, Avenue des Palais, 3080 Tervuren</p>
+                    <p>
+                        Palais des Colonies,<br/>
+                        Avenue des Palais<br/>
+                        3080 Tervuren
+                    </p>
                 </div>
             </div>
             <div class="col-md-3">
@@ -321,8 +329,16 @@
 
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.1465490693363!2d4.513644165912507!3d50.8284493679364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3d95b00c7a105%3A0x5153d89cce875dc!2sPalais+des+Colonies!5e0!3m2!1sfr!2sbe!4v1458138714188"  frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-2">
+                <div class="section-text">
+                    <h4>Dress code:</h4>
+
+                    <p>Tennue de soirée</p>
+
+                </div>
             </div>
         </div>
     </div>
@@ -333,99 +349,40 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="section-title">
-                    <h2><b class="bhFont">Photos</b></h2>
+                    <h2><b class="bhFont">Partenaires</b></h2>
 
                 </div>
             </div>
         </div>
-        <div class="row row-0-gutter">
+        <div class="row ">
+            <div class="col-md-12 text-center">
+                <H3 class="section-text">
+                    Animation by Make it Pop<br>
+                    Teaser by Siméon Janssens<br>
+                    Graphisme by Gaëtane Henry de Frahan<br>
+                    Dresses by Léa Richard<br>
+                    Hairdressing by Laetitia de Radzitzky<br>
+                </H3>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-offset-4 col-md-4">
+                <img class="img-responsive" src="Vues/Photos/mip.png">
+            </div>
 
-            <div class="col-md-4 col-0-gutter">
-                <div class="ot-portfolio-item">
-                    <figure class="effect-bubba">
-                        <img src="Vues/images/demo/portfolio-1.jpg" alt="img02" class="img-responsive" />
-                        <figcaption>
-                            <h2>Dean & Letter</h2>
-                            <p>Branding, Design</p>
-                            <a href="#" data-toggle="modal" data-target="#Modal-1">View more</a>
-                        </figcaption>
-                    </figure>
-                </div>
-            </div>
-            <!-- end portfolio item
-            <!-- start portfolio item-->
-            <div class="col-md-4 col-0-gutter">
-                <div class="ot-portfolio-item">
-                    <figure class="effect-bubba">
-                        <img src="Vues/images/demo/portfolio-2.jpg" alt="img02" class="img-responsive" />
-                        <figcaption>
-                            <h2>Startup Framework</h2>
-                            <p>Branding, Web Design</p>
-                            <a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>
-                        </figcaption>
-                    </figure>
-                </div>
-            </div>
-            <!-- end portfolio item
-            <!-- start portfolio item-->
-            <div class="col-md-4 col-0-gutter">
-                <div class="ot-portfolio-item">
-                    <figure class="effect-bubba">
-                        <img src="Vues/images/demo/portfolio-3.jpg" alt="img02" class="img-responsive" />
-                        <figcaption>
-                            <h2>Lamp & Velvet</h2>
-                            <p>Branding, Web Design</p>
-                            <a href="#" data-toggle="modal" data-target="#Modal-3">View more</a>
-                        </figcaption>
-                    </figure>
-                </div>
-            </div>
-            <!-- end portfolio item-->
         </div>
-        <div class="row row-0-gutter">
-            <!-- start portfolio item-->
-            <div class="col-md-4 col-0-gutter">
-                <div class="ot-portfolio-item">
-                    <figure class="effect-bubba">
-                        <img src="Vues/images/demo/portfolio-4.jpg" alt="img02" class="img-responsive" />
-                        <figcaption>
-                            <h2>Smart Name</h2>
-                            <p>Branding, Design</p>
-                            <a href="#" data-toggle="modal" data-target="#Modal-4">View more</a>
-                        </figcaption>
-                    </figure>
-                </div>
+        <div class="row ">
+            <div class="col-md-offset-4 col-md-4">
+                <img class="img-responsive" src="Vues/Photos/ldr.jpg">
             </div>
-            <!-- end portfolio item
-            <!-- start portfolio item-->
-            <div class="col-md-4 col-0-gutter">
-                <div class="ot-portfolio-item">
-                    <figure class="effect-bubba">
-                        <img src="Vues/images/demo/portfolio-5.jpg" alt="img02" class="img-responsive" />
-                        <figcaption>
-                            <h2>Fast People</h2>
-                            <p>Branding, Web Design</p>
-                            <a href="#" data-toggle="modal" data-target="#Modal-5">View more</a>
-                        </figcaption>
-                    </figure>
-                </div>
-            </div>
-            <!-- end portfolio item
-            <!-- start portfolio item-->
-            <div class="col-md-4 col-0-gutter">
-                <div class="ot-portfolio-item">
-                    <figure class="effect-bubba">
-                        <img src="Vues/images/demo/portfolio-6.jpg" alt="img02" class="img-responsive" />
-                        <figcaption>
-                            <h2>Kites & Stars</h2>
-                            <p>Branding, Web Design</p>
-                            <a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>
-                        </figcaption>
-                    </figure>
-                </div>
-            </div>
-            <!-- end portfolio item-->
         </div>
+        <div class="row ">
+            <div class="col-md-offset-4 col-md-4">
+                <img class="img-responsive" src="Vues/Photos/lea.png">
+            </div>
+        </div>
+
+
     </div><!-- end container -->
 </section>
 

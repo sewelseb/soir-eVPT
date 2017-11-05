@@ -44,3 +44,7 @@ $('.return-to-main-menu').click(function(){
     $('.from-register-other').hide('slow');
     $('.main-menu').show('slow');
 });
+
+$(document).ready(function(){
+    $('.img-container').css('max-height', $(window).height());
+});

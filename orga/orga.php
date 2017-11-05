@@ -292,9 +292,17 @@
                                             <strong>Mail</strong><br/>
                                         </td>
                                         <td>
+                                            <strong>Date de naissance</strong><br/>
+                                        </td>
+                                        <td>
                                             <strong>Code de payement</strong><br/>
                                         </td>
-										
+                                        <td>
+                                            <strong>A payé</strong><br/>
+                                        </td>
+                                        <td>
+                                            <strong>Action</strong><br/>
+                                        </td>
 									</tr>
                                 <?php
                                 //var_dump($admin->getListeClients());
@@ -321,7 +329,40 @@
                                                 <?php echo ($client->getEmail()); ?><br/>
                                             </td>
                                             <td>
+                                                <?php echo ($client->getBirthday()); ?><br/>
+                                            </td>
+                                            <td>
                                                 vpt-<?php echo ($client->getId()); ?><br/>
+                                            </td>
+                                            <td>
+                                                <?php
+
+                                                    if($client->getPayed() != "true")
+                                                    {
+                                                        ?>
+                                                         <span class="text-danger">Non</span>
+                                                        <?php
+                                                    }
+                                                    else
+                                                    {
+                                                        ?>
+                                                        <span class="text-success">Oui</span>
+                                                        <?php
+                                                    }
+                                                ?>
+                                            </td>
+
+                                            <td>
+                                                <?php
+
+                                                if($client->getPayed() != "true")
+                                                {
+                                                    ?>
+                                                    <a href="setAsPayed.php?id=<?php echo ($client->getId()); ?>"><button class="btn-succcess">a payé</button></a>
+                                                    <?php
+                                                }
+
+                                                ?>
                                             </td>
 
                                         </tr>

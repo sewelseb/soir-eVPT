@@ -14,7 +14,7 @@
     $reponse->setTitre($_POST['titre']);
     $reponse->setNom($_POST['nom']);
     $reponse->setPrenom($_POST['prenom']);
-    $reponse->setEmail($_POST['email']);
+    $reponse->setEmail($_POST['mail']);
     $reponse->setCodePromo($_POST['codePromo']);
 
     $reponseManager = new ReponseManager();

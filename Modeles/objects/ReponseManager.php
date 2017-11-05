@@ -34,8 +34,8 @@ class ReponseManager
     {
         $PDO->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $stmt = $PDO->prepare("INSERT INTO reponse 
-                  (response_type, titre, nom, prenom, email, code_promo, rally, code_de_payement) 
-          VALUES (:response_type, :titre, :nom, :prenom, :email, :code_promo, :rally, :code_de_payement)");
+                  (response_type, titre, nom, prenom, email, code_promo, rally, code_de_payement, birthday) 
+          VALUES (:response_type, :titre, :nom, :prenom, :email, :code_promo, :rally, :code_de_payement, :birthday)");
 
         $type = $reponse->getType();
         $titre = $reponse->getTitre();
@@ -53,13 +53,16 @@ class ReponseManager
             ':email'=> $email,
             ':code_promo'=> $codePromo,
             ':rally'=> $rally,
-            ':code_de_payement'=> $codeDePayement
+            ':code_de_payement'=> $codeDePayement,
+            ':birthday' =>$reponse->getBirthday()
         ));
 //        echo "\nPDO::errorInfo():\n";
 //        var_dump($PDO->errorInfo());
 
         return $PDO->lastInsertId();
     }
+
+
 
     public function getAll(PDO $PDO)
     {
@@ -79,6 +82,8 @@ class ReponseManager
                 $reponse->setEmail($clientBdd['email']);
                 $reponse->setRally($clientBdd['rally']);
                 $reponse->setCodePromo($clientBdd['code_promo']);
+                $reponse->setBirthday($clientBdd['birthday']);
+                $reponse->setPayed($clientBdd['payed']);
 
 
 
@@ -89,5 +94,14 @@ class ReponseManager
                 $i++;
             }
         $this->setListeReponse($liste);
+    }
+
+    public function setAsSaved($id, PDO $PDO)
+    {
+        $PDO->exec('UPDATE reponse
+            SET payed=\'true\'
+            WHERE id='.$id.'  ');
+        echo "\nPDO::errorInfo():\n";
+        var_dump($PDO->errorInfo());
     }
 }
