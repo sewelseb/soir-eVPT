@@ -122,13 +122,22 @@
                             else
                             {
                                 ?>
-                                <div id="code">
-                                    <div class="form-group ">
-                                        <input class="form-control" placeholder="Code (sur l'invitation)" id="codeInput">
+                                <div id="code" >
+                                    <div class="row">
+                                        <div class="col-lg-4 col-lg-offset-4">
+                                            <div class="form-group ">
+                                                <input class="form-control input-lg" placeholder="Code (sur l'invitation)" id="codeInput">
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="form-group ">
-                                        <button class="form-control" id="testCode">Envoyer <i class="fa fa-arrow-right"></i></button>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-lg-offset-4">
+                                            <div class="form-group ">
+                                                <button class="form-control btn btn-primary " id="testCode">Envoyer <i class="fa fa-arrow-right"></i></button>
+                                            </div>
+                                        </div>
                                     </div>
+
                                 </div>
                                 <div class="" id="form-de-reponse" hidden>
                                 <?php
@@ -218,6 +227,14 @@
                                             <option value="Oxygen">Oxygen</option>
                                         </select>
 
+                                    </div>
+                                    <div class="form-group col-lg-3">
+
+                                         <input type="radio" name="presence"  value="true" required> Viendra
+
+                                    </div>
+                                    <div class="form-group col-lg-3">
+                                        <input type="radio" name="presence"  value="false" required> Ne viendra pas
                                     </div>
 
                                     <div class="form-group col-lg-6">
