@@ -54,7 +54,7 @@
                     <a href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll hearder-white-text" href="#page-top">Home</a>
+                    <a class="page-scroll hearder-white-text" href="#page-top">Accueil</a>
                 </li>
                 <li>
                     <a class="page-scroll hearder-white-text" href="#about">Le thème</a>
@@ -219,12 +219,11 @@
                                     <div class="form-group col-lg-6">
 
                                         <select class="form-control " name="rally" required>
-                                            <option value="Ballade">Ballade</option>
-                                            <option value="Nec Plus Ultra">Nec Plus Ultra</option>
-                                            <option value="Txto">Txto</option>
-                                            <option value="Carambole">Carambole</option>
-                                            <option value="Kiliwatch-Pleine Lune">Kiliwatch-Pleine Lune</option>
-                                            <option value="Oxygen">Oxygen</option>
+                                            <option value="Sunshine">Sunshine</option>
+                                            <option value="Twins">Twins</option>
+                                            <option value="Rafiki">Rafiji</option>
+                                            <option value="No Name">No Name</option>
+                                            <option value="Freestyle">Freestyle</option>
                                         </select>
 
                                     </div>
@@ -326,7 +325,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <a href="http://www.vpt.be/">
-                    <img src="http://www.vpt.be/img/logoVPT.bmp" style="max-width: 200px">
+                    <img src="Vues/Photos/vptTransparent.png" style="max-width: 200px; margin-top: 15px;">
                 </a>
             </div>
         </div>
@@ -371,7 +370,7 @@
                 <div class="section-text">
                     <h4>Nous contacter:</h4>
 
-                    <p><i class="fa fa-envelope"></i> soiree@vpt.be</p>
+                    <p><i class="fa fa-envelope"></i> inscriptions@vpt.be</p>
 
                 </div>
             </div>
