@@ -19,6 +19,7 @@ class Reponse
     private $_codeDePayement;
     private $_birthday;
     private $_payed;
+    private $_presence;
 
     /**
      * @return mixed
@@ -194,6 +195,22 @@ class Reponse
     public function setPayed($payed)
     {
         $this->_payed = $payed;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPresence()
+    {
+        return $this->_presence;
+    }
+
+    /**
+     * @param mixed $presence
+     */
+    public function setPresence($presence)
+    {
+        $this->_presence = $presence;
     }
 
 

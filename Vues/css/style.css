@@ -16,6 +16,15 @@ Color customizations
 change these colors to change overlays
 --------------------*/
 
+/*
+	VPT le son:
+	-----------
+	blue: rgb(37,50,105)
+	truquoise: rgb(39,79,90)
+	rouge: rgb(228,22,28)
+
+ */
+
 .mz-module:hover .ot-circle.color1 {
 	color: #C54A4A;
 }
@@ -77,7 +86,7 @@ a, a:hover, a:focus, a:active, a.active {
 
 ::selection {
 	text-shadow: none;
-	background: #fed136;
+	background: rgb(39,79,90);
 }
 
 @media (min-width: 768px) {
@@ -136,7 +145,7 @@ section ul li:before {
 --------------------*/
 
 .navbar-default {
-	background-color: #fff;
+	background-color: transparent;
 	border-color: transparent
 }
 .navbar-default .navbar-brand {
@@ -152,14 +161,14 @@ section ul li:before {
 	border-color: rgba(255,255,255,.02)
 }
 .navbar-default .navbar-toggle {
-	background-color: #fed136;
-	border-color: #fed136
+	background-color: rgb(39,79,90);
+	border-color: rgb(39,79,90);
 }
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #fff
+	/*background-color: #fff*/
 }
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
-	background-color: #fed136
+	background-color: rgb(39,79,90);
 }
 .navbar-default .nav li a {
 	font-family: "Open Sans",sans-serif;
@@ -170,24 +179,24 @@ section ul li:before {
 	color: #444448;
 }
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
-	color: #fed136;
+	color: rgb(39,79,90);
 	outline: 0
 }
 
 .navbar-default .navbar-nav>.active>a {
 	border-radius: 0;
 	color: #fff;
-	background-color: #fed136
+	background-color: rgb(39,79,90);
 }
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
 	color: #fff;
-	background-color: #fec503
+	background-color: rgb(39,79,90);
 }
 
 @media (min-width:768px) {
 	.navbar-default
 	{
-		background-color: rgba(255, 255, 255, 0.65);
+		background-color: rgba(0, 0, 0, 0);;
 		padding: 5px 0;
 		-webkit-transition:padding .3s;
 		-moz-transition:padding .3s;
@@ -206,7 +215,7 @@ section ul li:before {
 		border-radius: 3px
 	}
 	.navbar-default.navbar-shrink {
-		background-color: #FFFFFF;
+		background-color: transparent;
 		border-bottom: 1px solid #828282;
 		padding: 5px 0;
 	}
@@ -226,7 +235,7 @@ section ul li:before {
 --------------------*/
 
 header {
-    margin-top: 80px;
+    margin-top: 0px;
 }
 
 .owl-slider-item {
@@ -858,11 +867,11 @@ section#contact .form-group input, section#contact .form-group textarea {
 
 footer {
 	padding: 30px;
-	background-color: #000;	
+	background-color: rgb(37,50,105);
 }
 
 footer p {
-	color: #B7B7B7;
+	color: white;
 	margin: 0;
 	font-size: 10px;
 	text-transform: uppercase;
@@ -915,7 +924,7 @@ font-size: 11px;
 }
 
 .modal-works span {
-	background-color: #FED136;
+	background-color: rgb(39,79,90);
 	margin-right: 15px;
 	padding: 5px 10px;
 }
@@ -949,10 +958,10 @@ font-size: 11px;
 .btn-primary:visited,
 .btn-primary:focus {
 	border-radius: 0px;
-	background-color: gold;
-	border-color: gold;
+	background-color: rgb(37,50,105);
+	border-color: rgb(37,50,105);
 	background-image: none;
-	color: black;
+	color: white;
 }
 
 .btn-main{
@@ -960,7 +969,11 @@ font-size: 11px;
 }
 
 .btn-link{
-	color: gold;
+	color: white;
+}
+.btn-link:hover{
+	background-color: rgba(0,0,0,0.2);
+	border: transparent;
 }
 
 .btn-xl {
@@ -1000,7 +1013,8 @@ color: #fff;
 	transition: 1s;
 }
 #back-top a:hover {
-	background: #fed136;
+	/*background: #fed136;*/
+	background: rgb(39,79,90);
 }
 /* arrow icon (span tag) */
 #back-top i {
@@ -1050,13 +1064,25 @@ and (max-width : 480px) {
 	color: white;
 }
 
+.white-text{
+	color: white;
+}
+.hearder-white-text{
+	color: white;
+}
+
+
 
 
 
 .bhFont{
 	font-family: "Open Sans",sans-serif;
 	font-size: 1.5em;
-	color:black;
+	color: rgb(37,50,105);
+}
+.title-header{
+	font-family: "Open Sans",sans-serif;
+	font-size: 1.5em;
 }
 .bhFontSmall{
 	font-family: "Open Sans",sans-serif;
@@ -1069,6 +1095,10 @@ and (max-width : 480px) {
 
 .form-control{
 	border-radius: 0px;
+}
+
+.blueText {
+	color: rgb(37,50,105);
 }
 
 
@@ -1096,4 +1126,10 @@ and (max-width : 480px) {
 	.image-enthete{
 	min-height: 540px;
 	}
+}
+
+nav > li > a:focus, .nav > li > a:hover {
+	background-color: transparent;
+	/*color: rgb(228,22,28);*/
+	color: rgb(39,79,90);
 }

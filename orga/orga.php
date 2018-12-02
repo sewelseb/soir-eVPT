@@ -94,7 +94,7 @@
 							
 							-->
 							<ul>
-								<li><a href="#top" id="top-link" class="skel-panels-ignoreHref"><span class="fa fa-home">Réponses des rallys </span></a></li>
+								<li><a href="#top" id="top-link" class="skel-panels-ignoreHref"><span class="fa fa-home">Réponses des rallyes </span></a></li>
 								<li><a href="#portfolio" id="portfolio-link" class="skel-panels-ignoreHref"><span class="fa fa-th">Réponses Code Promo </span></a></li>
 								<li><a href="#about" id="about-link" class="skel-panels-ignoreHref"><span class="fa fa-user">Réponse payantes </span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-panels-ignoreHref"><span class="fa fa-envelope">Contact</span></a></li>
@@ -141,7 +141,7 @@
 											<strong>Titre</strong><br/>
 										</td>
 										<td>
-											<strong>Prenom</strong><br/>
+											<strong>Prénom</strong><br/>
 										</td>
 										<td>
 											<strong>Nom</strong><br/>
@@ -152,6 +152,9 @@
 										<td>
 											<strong>Rallye</strong><br/>
 										</td>
+                                        <td>
+                                            <strong>Présence</strong><br/>
+                                        </td>
 										
 									</tr>
 									<?php
@@ -181,6 +184,18 @@
 															<td>
 																<?php echo ($client->getRally()); ?><br/>
 															</td>
+                                                            <td>
+                                                                <?php if($client->getPresence() == null || $client->getPresence() == 'true')
+                                                                {
+                                                                      echo  'oui';
+                                                                }
+                                                                else
+                                                                {
+                                                                        echo  'non';
+                                                                }?>
+
+                                                                <br/>
+                                                            </td>
 															
 														</tr>
 													<?php
@@ -214,7 +229,7 @@
                                             <strong>Titre</strong><br/>
                                         </td>
                                         <td>
-                                            <strong>Prenom</strong><br/>
+                                            <strong>Prénom</strong><br/>
                                         </td>
                                         <td>
                                             <strong>Nom</strong><br/>
@@ -283,7 +298,7 @@
                                             <strong>Titre</strong><br/>
                                         </td>
                                         <td>
-                                            <strong>Prenom</strong><br/>
+                                            <strong>Prénom</strong><br/>
                                         </td>
                                         <td>
                                             <strong>Nom</strong><br/>
@@ -295,7 +310,7 @@
                                             <strong>Date de naissance</strong><br/>
                                         </td>
                                         <td>
-                                            <strong>Code de payement</strong><br/>
+                                            <strong>Code de paiement</strong><br/>
                                         </td>
                                         <td>
                                             <strong>A payé</strong><br/>

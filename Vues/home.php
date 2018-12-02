@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110955018-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-110955018-1');
+    </script>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,7 +34,8 @@
 </head>
 <body id="page-top">
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top">
+<!--<nav class="navbar navbar-default navbar-fixed-top">-->
+<nav class="navbar navbar-fixed-top">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header bhFont">
@@ -34,7 +45,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class=" " href="#page-top"><span class="bhFont">Soirée VPT</span></a>
+            <a class=" " href="#page-top"><span class="title-header white-text">Soirée VPT</span></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -43,16 +54,16 @@
                     <a href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#page-top">Home</a>
+                    <a class="page-scroll hearder-white-text" href="#page-top">Home</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#about">Le thème</a>
+                    <a class="page-scroll hearder-white-text" href="#about">Le thème</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#features">Lieu de la soirée</a>
+                    <a class="page-scroll hearder-white-text" href="#features">Lieu de la soirée</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#portfolio">Photos</a>
+                    <a class="page-scroll hearder-white-text" href="#portfolio">Partenaires</a>
                 </li>
 <!--                <li>-->
 <!--                    <a class="page-scroll" href="#partners">Partners</a>-->
@@ -73,28 +84,20 @@
 <header>
     <div class="container-fluid">
         <div class="slider-container">
-
-
-                <div class="item">
-                    <div class="owl-slider-item img-container">
-                        <img src="Vues/Photos/cercle.jpg" class="img-responsive image-enthete" alt="portfolio"  >
-                        <div class="intro-text">
-                            <!--<H1 class="Text-Blanc">
-                                <a href="http://www.asyouwish.be/vienne/" class="Text-Blanc">
-                                    Cliquez ici pour voir les photos de la soirée.<br/>
-                                </a>
-                            </H1>-->
-
+            <div class="item">
+                <div class="owl-slider-item img-container">
+                    <img src="Vues/images/background.jpg" class="img-responsive image-enthete" alt="portfolio"  >
+                    <div class="intro-text">
+                        <?php
+                        if(isset($message))
+                        {
+                            ?>
+                            <H1 class="Text-Blanc"><span class=""><?php echo $message; ?></span></H1>
                             <?php
-                                if(isset($message))
-                                {
-                                    ?>
-                                    <H1 class="Text-Blanc"><span class=""><?php echo $message; ?></span></H1>
-                                    <?php
-                                }
-                                else
-                                {
-                                    ?>
+                        }
+                        else
+                        {
+                            ?>
                             <H1 class="Text-Blanc"><span class="">Obtenir mon invitation</span></H1>
 
                             <?php
@@ -107,19 +110,17 @@
                                 <?php
                                 $_SESSION['connexionSuccessful']=false;
                             }
-
                             ?>
 
                             <?php
-
                             if (isset($_SESSION['code']) && $_SESSION['code']==true)
                             {
-                            ?>
-                            <div class="" id="form-de-reponse" >
+                                ?>
+                                <div class="" id="form-de-reponse" >
                                 <?php
-                                }
-                                else
-                                {
+                            }
+                            else
+                            {
                                 ?>
                                 <div id="code">
                                     <div class="form-group ">
@@ -130,148 +131,143 @@
                                     </div>
                                 </div>
                                 <div class="" id="form-de-reponse" hidden>
-                                    <?php
-                                    }
-                                    ?>
-                                    <div class="row main-menu">
-                                        <div class="col-lg-12 ">
-                                            <div class="row">
-                                                <div class="col-lg-4">
-                                                    <button class="btn btn-primary btn-lg btn-main btn-code-promo">Code promo</button>
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <button class="btn btn-primary btn-lg btn-main btn-rally">Rallye</button>
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <button class="btn btn-primary btn-lg btn-main  btn-register-form">Autre</button>
-                                                </div>
-                                            </div>
+                                <?php
+                            }
+                            ?>
+                            <div class="row main-menu">
+                                <div class="col-lg-12 ">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <button class="btn btn-primary btn-lg btn-main btn-code-promo">Code promo</button>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <button class="btn btn-primary btn-lg btn-main btn-rally">Rallye</button>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <button class="btn btn-primary btn-lg btn-main  btn-register-form">Autre</button>
                                         </div>
                                     </div>
-                                    <div class="from-register-by-code" hidden>
-                                        <button class="btn btn-link return-to-main-menu"><i class="fa fa-arrow-left"></i> back</button>
-                                        <form name="formulaireDeReponse" id="formulaireDeReponse" action="EnregistrementReponseCodePromo.php" method="POST" >
+                                </div>
+                            </div>
+                            <div class="from-register-by-code" hidden>
+                                <button class="btn btn-link return-to-main-menu"><i class="fa fa-arrow-left"></i> back</button>
+                                <form name="formulaireDeReponse" id="formulaireDeReponse" action="EnregistrementReponseCodePromo.php" method="POST" >
 
 
-                                            <div class="form-group col-lg-6">
-                                                <input name="titre"  placeholder="Titre (ex: Comtesse, Monsieur, Baron, ...)" class="form-control " required>
+                                    <div class="form-group col-lg-6">
+                                        <input name="titre"  placeholder="Titre (ex: Comtesse, Monsieur, Baron, ...)" class="form-control " required>
 
-                                            </div>
-                                            <div class="form-group col-lg-6">
-
-                                                <input name="nom"  placeholder="Nom" class="form-control " required>
-
-                                            </div>
-                                            <div class="form-group col-lg-6">
-
-                                                <input name="prenom"  placeholder="Prénom" class="form-control " required>
-
-                                            </div>
-                                            <div class="form-group col-lg-6">
-
-                                                <input name="mail"  placeholder="E-mail" class="form-control " required>
-                                            </div>
-                                            <div class="form-group col-lg-6">
-
-                                                <input name="codePromo"  placeholder="Code Promo" class="form-control " required>
-
-                                            </div>
-
-                                            <div class="form-group col-lg-6">
-
-                                                <input type="submit" value="Envoyer" class="form-control btn btn-primary ">
-                                            </div>
-                                        </form>
                                     </div>
-                                    <div class="from-register-by-rally" hidden>
-                                        <button class="btn btn-link return-to-main-menu"><i class="fa fa-arrow-left"></i> back</button>
-                                        <form name="formulaireDeReponse" id="formulaireDeReponse" action="EnregistrementReponseRally.php" method="POST" >
+                                    <div class="form-group col-lg-6">
 
+                                        <input name="nom"  placeholder="Nom" class="form-control " required>
 
-                                            <div class="form-group col-lg-6">
-                                                <input name="titre"  placeholder="Titre (ex: Comtesse, Monsieur, Baron, ...)" class="form-control " required>
+                                    </div>
+                                    <div class="form-group col-lg-6">
 
-                                            </div>
-                                            <div class="form-group col-lg-6">
+                                        <input name="prenom"  placeholder="Prénom" class="form-control " required>
 
-                                                <input name="nom"  placeholder="Nom" class="form-control " required>
+                                    </div>
+                                    <div class="form-group col-lg-6">
 
-                                            </div>
-                                            <div class="form-group col-lg-6">
+                                        <input name="mail"  placeholder="E-mail" class="form-control " required>
+                                    </div>
+                                    <div class="form-group col-lg-6">
 
-                                                <input name="prenom"  placeholder="Prénom" class="form-control " required>
+                                        <input name="codePromo"  placeholder="Code Promo" class="form-control " required>
 
-                                            </div>
-                                            <div class="form-group col-lg-6">
-
-                                                <input name="mail"  placeholder="E-mail" class="form-control " required>
-                                            </div>
-                                            <div class="form-group col-lg-6">
-
-                                                <select class="form-control " name="rally" required>
-                                                    <option value="Ballade">Ballade</option>
-                                                    <option value="Nec Plus Ultra">Nec Plus Ultra</option>
-                                                    <option value="Txto">Txto</option>
-                                                    <option value="Carambole">Carambole</option>
-                                                    <option value="Kiliwatch-Pleine Lune">Kiliwatch-Pleine Lune</option>
-                                                    <option value="Oxygen">Oxygen</option>
-                                                </select>
-
-                                            </div>
-
-                                            <div class="form-group col-lg-6">
-
-                                                <input type="submit" value="Envoyer" class="form-control btn btn-primary ">
-                                            </div>
-                                        </form>
                                     </div>
 
-                                    <div class="from-register-other" hidden>
-                                        <button class="btn btn-link return-to-main-menu"><i class="fa fa-arrow-left"></i> back</button>
-                                        <form name="formulaireDeReponse" id="formulaireDeReponse" action="EnregistrementReponse.php" method="POST" >
+                                    <div class="form-group col-lg-6">
 
-
-                                            <div class="form-group col-lg-6">
-                                                <input name="titre" id="titre" placeholder="Titre (ex: Comtesse, Monsieur, Baron, ...)" class="form-control" required>
-
-                                            </div>
-                                            <div class="form-group col-lg-6">
-
-                                                <input name="nom" id="nom" placeholder="Nom" class="form-control" required>
-
-                                            </div>
-                                            <div class="form-group col-lg-6">
-
-                                                <input name="prenom" id="prenom" placeholder="Prénom" class="form-control" required>
-
-                                            </div>
-                                            <div class="form-group col-lg-6">
-
-                                                <input name="mail" id="mail" placeholder="E-mail" class="form-control" required>
-                                            </div>
-                                            <div class="form-group col-lg-6">
-
-                                                <input name="birthday" id="birthday" placeholder="Date de Naissance" class="form-control" required>
-                                            </div>
-                                            <div class="form-group col-lg-6">
-
-                                                <input type="submit" value="Envoyer" class="btn btn-primary form-control">
-                                            </div>
-                                        </form>
+                                        <input type="submit" value="Envoyer" class="form-control btn btn-primary ">
                                     </div>
+                                </form>
+                            </div>
+                            <div class="from-register-by-rally" hidden>
+                                <button class="btn btn-link return-to-main-menu"><i class="fa fa-arrow-left"></i> back</button>
+                                <form name="formulaireDeReponse" id="formulaireDeReponse" action="EnregistrementReponseRally.php" method="POST" >
+
+
+                                    <div class="form-group col-lg-6">
+                                        <input name="titre"  placeholder="Titre (ex: Comtesse, Monsieur, Baron, ...)" class="form-control " required>
+
                                     </div>
+                                    <div class="form-group col-lg-6">
+
+                                        <input name="nom"  placeholder="Nom" class="form-control " required>
+
                                     </div>
-                                    <?php
-                                }
-                            ?>
+                                    <div class="form-group col-lg-6">
+
+                                        <input name="prenom"  placeholder="Prénom" class="form-control " required>
+
+                                    </div>
+                                    <div class="form-group col-lg-6">
+
+                                        <input name="mail"  placeholder="E-mail" class="form-control " required>
+                                    </div>
+                                    <div class="form-group col-lg-6">
+
+                                        <select class="form-control " name="rally" required>
+                                            <option value="Ballade">Ballade</option>
+                                            <option value="Nec Plus Ultra">Nec Plus Ultra</option>
+                                            <option value="Txto">Txto</option>
+                                            <option value="Carambole">Carambole</option>
+                                            <option value="Kiliwatch-Pleine Lune">Kiliwatch-Pleine Lune</option>
+                                            <option value="Oxygen">Oxygen</option>
+                                        </select>
+
+                                    </div>
+
+                                    <div class="form-group col-lg-6">
+
+                                        <input type="submit" value="Envoyer" class="form-control btn btn-primary ">
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="from-register-other" hidden>
+                                <button class="btn btn-link return-to-main-menu"><i class="fa fa-arrow-left"></i> back</button>
+                                <form name="formulaireDeReponse" id="formulaireDeReponse" action="EnregistrementReponse.php" method="POST" >
 
 
+                                    <div class="form-group col-lg-6">
+                                        <input name="titre" id="titre" placeholder="Titre (ex: Comtesse, Monsieur, Baron, ...)" class="form-control" required>
 
+                                    </div>
+                                    <div class="form-group col-lg-6">
+
+                                        <input name="nom" id="nom" placeholder="Nom" class="form-control" required>
+
+                                    </div>
+                                    <div class="form-group col-lg-6">
+
+                                        <input name="prenom" id="prenom" placeholder="Prénom" class="form-control" required>
+
+                                    </div>
+                                    <div class="form-group col-lg-6">
+
+                                        <input name="mail" id="mail" placeholder="E-mail" class="form-control" required>
+                                    </div>
+                                    <div class="form-group col-lg-6">
+
+                                        <input name="birthday" id="birthday" placeholder="Date de Naissance" class="form-control" required>
+                                    </div>
+                                    <div class="form-group col-lg-6">
+
+                                        <input type="submit" value="Envoyer" class="btn btn-primary form-control">
+                                    </div>
+                                </form>
+                            </div>
+                            </div>
+                            </div>
+                            <?php
+                        }
+                        ?>
                     </div>
                 </div>
-
-
-
+            </div>
         </div>
     </div>
 </header>
@@ -286,9 +282,42 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="section-title">
-                    <h2><b class="bhFont">Soirée VPT un cable</b></h2>
+                    <h2><b class="bhFont">Soirée VPT un câble</b></h2>
 
                 </div>
+                <div class="text-center">
+<!--                    <div class="hidden-xs">-->
+<!--                        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvacancespourtous.asbl%2Fvideos%2F1625753627483697%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>-->
+<!--                    </div>-->
+<!--                    <div class="visible-xs">-->
+<!--                        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvacancespourtous.asbl%2Fvideos%2F1625753627483697%2F&show_text=0&width=560" width="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>-->
+<!--                    </div>-->
+<!--                    <div class="text-center">-->
+<!--                        Si la vidéo ne s'affiche pas, vérifiez que vous êtes connecté à Facebook.-->
+<!--                    </div>-->
+
+                    <a href="https://www.instagram.com/soireevpt/">
+                        <img src="Vues/Photos/insta.png" style="height: 50px;">
+                    </a>
+<!--                    <a href="https://www.facebook.com/events/1976931835897313/">-->
+<!--                        <img src="Vues/Photos/fb.png" style="height: 80px;">-->
+<!--                    </a>-->
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <a href="http://www.vpt.be/">
+                    <img src="http://www.vpt.be/img/logoVPT.bmp" style="max-width: 200px">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <H3>
+                    VPT, des vacances pour des enfants issus de milieux défavorisés
+                </H3>
             </div>
         </div>
 
@@ -306,8 +335,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="text-center">
-                <H3>DATE: 24 février 2018 à 21H00</H3>
+            <div class="text-center" style="padding-bottom: 30px;">
+                <H3>DATE: 16 février 2019 à 21h00<br/></H3>
             </div>
         </div>
         <div class="row">
@@ -323,7 +352,7 @@
             </div>
             <div class="col-md-3">
                 <div class="section-text">
-                    <h4>Pour nous contacter:</h4>
+                    <h4>Nous contacter:</h4>
 
                     <p><i class="fa fa-envelope"></i> soiree@vpt.be</p>
 
@@ -336,7 +365,10 @@
                 <div class="section-text">
                     <h4>Dress code:</h4>
 
-                    <p>Tennue de soirée</p>
+                    <p>
+                        Tenue de soirée<br/>
+                        Touche rock
+                    </p>
 
                 </div>
             </div>
@@ -349,40 +381,53 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="section-title">
-                    <h2><b class="bhFont">Partenaires</b></h2>
-
+                    <h2 class="hidden-xs"><b class="bhFont">Partenaires</b></h2>
+                    <h3 class="visible-xs"><b class="bhFont">Partenaires</b></h3>
                 </div>
             </div>
         </div>
         <div class="row ">
             <div class="col-md-12 text-center">
                 <H3 class="section-text">
-                    Animation by Make it Pop<br>
-                    Teaser by Siméon Janssens<br>
-                    Graphisme by Gaëtane Henry de Frahan<br>
-                    Dresses by Léa Richard<br>
-                    Hairdressing by Laetitia de Radzitzky<br>
+                    Animation by Make it Pop<br><br>
+<!--                    Sound and Light by Audeo<br><br>-->
+                    Graphisme by Gaëtane Henry de Frahan<br><br>
+
                 </H3>
             </div>
         </div>
         <div class="row ">
             <div class="col-md-offset-4 col-md-4">
-                <img class="img-responsive" src="Vues/Photos/mip.png">
-            </div>
-
-        </div>
-        <div class="row ">
-            <div class="col-md-offset-4 col-md-4">
-                <img class="img-responsive" src="Vues/Photos/ldr.jpg">
+                <a href="http://www.makeitpop.be/"><img class="img-responsive" src="Vues/Photos/mip.png"></a>
             </div>
         </div>
-        <div class="row ">
-            <div class="col-md-offset-4 col-md-4">
-                <img class="img-responsive" src="Vues/Photos/lea.png">
+<!--        <div class="row ">-->
+<!--            <div class="col-md-offset-4 col-md-4" style="margin-top: 40px">-->
+<!--                <a href="http://audeo-event.be/">-->
+<!--                    <img class="img-responsive" src="Vues/Photos/audeo.png">-->
+<!--                </a>-->
+<!--                <div class="text-center">-->
+<!--                    AUDEO est le nouveau nom du département technique de Make It Pop.-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+
+    </div><!-- end container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="section-title" style="margin-top: 20px">
+                    <h2><b class="bhFont">Sponsors</b></h2>
+
+                </div>
             </div>
         </div>
-
-
+        <div>
+            <div class="section-title text-center" style="margin-top: 20px">
+                <a href="mailto:soiree@vpt.be"><h3><b class="bhFont">Get your logo here</b></h3></a>
+            </div>
+        </div>
     </div><!-- end container -->
 </section>
 
@@ -497,24 +542,6 @@
         </div>
     </div>
 </div>
-
-<!-- Music: -->
-
-<audio id="valseAccepte" controls hidden>
-    <source src="music/valseAccepte.ogg" type="audio/ogg">
-    <source src="music/valseAccepte.mp3" type="audio/mp3">
-
-
-    Your browser does not support the audio element.
-</audio>
-<audio id="valseRefus" controls hidden>
-    <source src="music/valseRefus.ogg" type="audio/ogg">
-    <source src="music/valseRefus.mp3" type="audio/mp3">
-
-
-    Your browser does not support the audio element.
-</audio>
-
 
 
 <!-- Bootstrap core JavaScript

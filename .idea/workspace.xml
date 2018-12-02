@@ -2,28 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9546618-6c83-45bf-99f5-f56199d13fb2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vues/Photos/cercle.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vues/Photos/ldr.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vues/Photos/lea.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vues/Photos/ligne.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vues/Photos/mip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vues/Photos/vpt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/orga/setAsPayed.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Vues/Photos/ARAB WORLD MAPS ( EI) - Février 2016 - Emmanuel PENE [240912].jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Vues/Photos/ARAB WORLD MAPS (Arabie saoudite) - Janvier 2016 -  Emmanuel PÈNE [106226].jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Vues/Photos/Editions CMO-MOC [872565].jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Vues/Photos/La Bataille d'Alep.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Vues/Photos/Le retour du Califat [59192].jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EnregistrementReponse.php" afterPath="$PROJECT_DIR$/EnregistrementReponse.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EnregistrementReponseCodePromo.php" afterPath="$PROJECT_DIR$/EnregistrementReponseCodePromo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modeles/objects/Reponse.php" afterPath="$PROJECT_DIR$/Modeles/objects/Reponse.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modeles/objects/ReponseManager.php" afterPath="$PROJECT_DIR$/Modeles/objects/ReponseManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vues/css/style.css" afterPath="$PROJECT_DIR$/Vues/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vues/home.php" afterPath="$PROJECT_DIR$/Vues/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vues/js/jqwery.js" afterPath="$PROJECT_DIR$/Vues/js/jqwery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/orga/css/style.css" afterPath="$PROJECT_DIR$/orga/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/orga/orga.php" afterPath="$PROJECT_DIR$/orga/orga.php" />
+      <change afterPath="$PROJECT_DIR$/Vues/Photos/audeo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vues/Photos/insta.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vues/Photos/insta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConexionBDD.php" beforeDir="false" afterPath="$PROJECT_DIR$/ConexionBDD.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnregistrementReponseCodePromo.php" beforeDir="false" afterPath="$PROJECT_DIR$/EnregistrementReponseCodePromo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnregistrementReponseRally.php" beforeDir="false" afterPath="$PROJECT_DIR$/EnregistrementReponseRally.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modeles/controlCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modeles/controlCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modeles/objects/Reponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modeles/objects/Reponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modeles/objects/ReponseManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modeles/objects/ReponseManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vues/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vues/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vues/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/Vues/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vues/images/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Vues/images/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vues/js/jqwery.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vues/js/jqwery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orga/orga.php" beforeDir="false" afterPath="$PROJECT_DIR$/orga/orga.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,22 +27,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vues/home.php">
+      <file leaf-file-name="ConexionBDD.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConexionBDD.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="78" column="61" lean-forward="false" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="61" />
-              <folding />
+            <state relative-caret-position="34">
+              <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jqwery.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vues/js/jqwery.js">
+      <file leaf-file-name="controlCode.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modeles/controlCode.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="17">
+              <caret line="1" column="21" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReponseManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modeles/objects/ReponseManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+              <folding>
+                <marker date="1516446057801" expanded="true" signature="622:887" ph="INSERT INTO reponse... " />
+                <marker date="1516446057801" expanded="true" signature="1932:1965" ph="SELECT * FRO... reponse" />
+                <marker date="1516446057801" expanded="true" signature="3150:3217" ph="UPDATE reponse... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Vues/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="431" column="10" lean-forward="true" selection-start-line="431" selection-start-column="10" selection-end-line="431" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -57,9 +71,17 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vues/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="1089" column="1" lean-forward="false" selection-start-line="1089" selection-start-column="1" selection-end-line="1089" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="229">
+              <caret line="869" column="36" selection-start-line="869" selection-start-column="36" selection-end-line="869" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jqwery.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vues/js/jqwery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="59" column="52" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -67,63 +89,8 @@
       <file leaf-file-name="EnregistrementReponseRally.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EnregistrementReponseRally.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reponse.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modeles/objects/Reponse.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="199" column="0" lean-forward="true" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReponseManager.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Modeles/objects/ReponseManager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="85" column="56" lean-forward="false" selection-start-line="85" selection-start-column="56" selection-end-line="85" selection-end-column="56" />
-              <folding>
-                <marker date="1509916683039" expanded="true" signature="622:867" ph="INSERT INTO reponse... " />
-                <marker date="1509916683039" expanded="true" signature="1830:1863" ph="SELECT * FRO... reponse" />
-                <marker date="1509916683039" expanded="true" signature="2984:3051" ph="UPDATE repon... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="orga.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/orga/orga.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="312" column="42" lean-forward="false" selection-start-line="312" selection-start-column="42" selection-end-line="312" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setAsPayed.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/orga/setAsPayed.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="187">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -131,9 +98,26 @@
       <file leaf-file-name="EnregistrementReponseCodePromo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EnregistrementReponseCodePromo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="272">
+              <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orga.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orga/orga.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1632">
+              <caret line="96" column="140" selection-start-line="96" selection-start-column="140" selection-end-line="96" selection-end-column="140" />
             </state>
           </provider>
         </entry>
@@ -142,24 +126,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>vienne</find>
-      <find>btn{</find>
-      <find>bh</find>
-      <find>btn</find>
-      <find>btn-primary</find>
-      <find>img-responsive</find>
-      <find>intro</find>
-      <find>intro-text</find>
-      <find>btn-prim</find>
-      <find>j'ai u</find>
       <find>bhFont</find>
       <find>Lieu</find>
-      <find>autre</find>
       <find>code de</find>
       <find>set</find>
       <find>photo</find>
       <find>image-enthete</find>
+      <find>(ex:</find>
+      <find>tenn</find>
+      <find>prenom</find>
+      <find>Photos</find>
+      <find>rally</find>
+      <find>votre</find>
+      <find>votre réponse</find>
+      <find>autre</find>
+      <find>truc</find>
+      <find>rallys</find>
+      <find>iframe</find>
+      <find>#fed136</find>
+      <find>navbar-default</find>
+      <find>rgb(37,50,105)</find>
+      <find>bh-font</find>
+      <find>rgba</find>
+      <find>bh</find>
+      <find>page-scroll</find>
+      <find>obten</find>
+      <find>btn-primary</find>
+      <find>#fec503</find>
+      <find>btn-li</find>
+      <find>site b</find>
+      <find>foo</find>
     </findStrings>
+    <dirStrings>
+      <dir>D:\wamp64\www\soir-eVPT</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -167,20 +167,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Modeles/controlCode.php" />
-        <option value="$PROJECT_DIR$/ConexionBDD.php" />
-        <option value="$PROJECT_DIR$/EnregistrementReponseRally.php" />
         <option value="$PROJECT_DIR$/orga/objAdmin.php" />
         <option value="$PROJECT_DIR$/EnregistrementReponse.php" />
-        <option value="$PROJECT_DIR$/EnregistrementReponseCodePromo.php" />
-        <option value="$PROJECT_DIR$/Modeles/objects/Reponse.php" />
         <option value="$PROJECT_DIR$/orga/css/style.css" />
         <option value="$PROJECT_DIR$/orga/setAsPayed.php" />
+        <option value="$PROJECT_DIR$/Modeles/controlCode.php" />
+        <option value="$PROJECT_DIR$/ConexionBDD.php" />
+        <option value="$PROJECT_DIR$/Modeles/objects/Reponse.php" />
+        <option value="$PROJECT_DIR$/EnregistrementReponseRally.php" />
+        <option value="$PROJECT_DIR$/EnregistrementReponseCodePromo.php" />
         <option value="$PROJECT_DIR$/Modeles/objects/ReponseManager.php" />
         <option value="$PROJECT_DIR$/orga/orga.php" />
-        <option value="$PROJECT_DIR$/Vues/home.php" />
         <option value="$PROJECT_DIR$/Vues/js/jqwery.js" />
         <option value="$PROJECT_DIR$/Vues/css/style.css" />
+        <option value="$PROJECT_DIR$/Vues/home.php" />
       </list>
     </option>
   </component>
@@ -190,85 +190,49 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1911" />
-    <option name="y" value="-9" />
-    <option name="width" value="1698" />
-    <option name="height" value="1028" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="soir-eVPT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soir-eVPT" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="soir-eVPT" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="soir-eVPT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soir-eVPT" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="soir-eVPT" type="462c0819:PsiDirectoryNode" />
+              <item name="Vues" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="soir-eVPT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soir-eVPT" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Modeles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="soir-eVPT" type="462c0819:PsiDirectoryNode" />
+              <item name="Vues" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="soir-eVPT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soir-eVPT" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Modeles" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="objects" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="soir-eVPT" type="462c0819:PsiDirectoryNode" />
+              <item name="Vues" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="soir-eVPT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soir-eVPT" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="orga" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="soir-eVPT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soir-eVPT" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="orga" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="soir-eVPT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soir-eVPT" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Vues" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="soir-eVPT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soir-eVPT" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Vues" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="soir-eVPT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soir-eVPT" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Vues" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="soir-eVPT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soir-eVPT" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Vues" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Photos" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="soir-eVPT" type="462c0819:PsiDirectoryNode" />
+              <item name="Vues" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -284,9 +248,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\soir-eVPT\Vues\Photos" />
       <recent name="D:\wamp64\www\soir-eVPT\Vues\images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\soir-eVPT\Vues\Photos" />
       <recent name="D:\wamp64\www\soir-eVPT" />
     </key>
   </component>
@@ -302,8 +268,8 @@
       </list>
     </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -315,422 +281,400 @@
       <workItem from="1508178285009" duration="4967000" />
       <workItem from="1509393892969" duration="5864000" />
       <workItem from="1509438121185" duration="13000" />
-      <workItem from="1509913875652" duration="4232000" />
+      <workItem from="1509913875652" duration="4399000" />
+      <workItem from="1509957478158" duration="1370000" />
+      <workItem from="1510613477412" duration="3173000" />
+      <workItem from="1510649235168" duration="16000" />
+      <workItem from="1511477145098" duration="2268000" />
+      <workItem from="1511511131174" duration="608000" />
+      <workItem from="1512905386596" duration="1903000" />
+      <workItem from="1512982066464" duration="700000" />
+      <workItem from="1513021487089" duration="2600000" />
+      <workItem from="1513067642555" duration="762000" />
+      <workItem from="1514633543560" duration="1468000" />
+      <workItem from="1514880077625" duration="82000" />
+      <workItem from="1515441030614" duration="193000" />
+      <workItem from="1516445795944" duration="1296000" />
+      <workItem from="1517309633099" duration="768000" />
+      <workItem from="1518077656225" duration="14000" />
+      <workItem from="1518077709427" duration="15000" />
+      <workItem from="1518264852348" duration="2854000" />
+      <workItem from="1518423355165" duration="147000" />
+      <workItem from="1519856358138" duration="1066000" />
+      <workItem from="1540070404866" duration="112000" />
+      <workItem from="1542073552253" duration="53000" />
+      <workItem from="1542153672771" duration="21000" />
+      <workItem from="1543755154266" duration="6026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15076000" />
+    <option name="totallyTimeSpent" value="42758000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1911" y="-9" width="1698" height="1028" extended-state="6" />
+    <frame x="1912" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23990208" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.4978903" />
+      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.25314686" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.21722364" />
+      <window_info anchor="bottom" id="Statistic" order="0" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info id="Structure" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="5" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Vues/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1936">
-          <caret line="88" column="49" lean-forward="false" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnregistrementReponseRally.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Modeles/objects/Reponse.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConexionBDD.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="51" lean-forward="false" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modeles/objects/ReponseManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding>
-            <marker date="1509916683039" expanded="true" signature="622:867" ph="INSERT INTO reponse... " />
-            <marker date="1509916683039" expanded="true" signature="1830:1863" ph="SELECT * FRO... reponse" />
-            <marker date="1509916683039" expanded="true" signature="2984:3051" ph="UPDATE repon... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orga/objAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2530">
-          <caret line="115" column="47" lean-forward="true" selection-start-line="105" selection-start-column="16" selection-end-line="115" selection-end-column="47" />
-          <folding>
-            <marker date="1509398373121" expanded="true" signature="1194:1244" ph="SELECT * FRO... admin" />
-            <marker date="1509398373121" expanded="true" signature="1410:1477" ph="UPDATE admin... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnregistrementReponse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="140" lean-forward="false" selection-start-line="16" selection-start-column="136" selection-end-line="16" selection-end-column="140" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnregistrementReponseCodePromo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginProcess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orga/orga.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3344">
-          <caret line="152" column="58" lean-forward="false" selection-start-line="152" selection-start-column="58" selection-end-line="152" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vues/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1936">
-          <caret line="88" column="49" lean-forward="false" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnregistrementReponseRally.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modeles/objects/Reponse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConexionBDD.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="51" lean-forward="false" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modeles/objects/ReponseManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding>
-            <marker date="1509916683039" expanded="true" signature="622:867" ph="INSERT INTO reponse... " />
-            <marker date="1509916683039" expanded="true" signature="1830:1863" ph="SELECT * FRO... reponse" />
-            <marker date="1509916683039" expanded="true" signature="2984:3051" ph="UPDATE repon... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orga/objAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2530">
-          <caret line="115" column="47" lean-forward="true" selection-start-line="105" selection-start-column="16" selection-end-line="115" selection-end-column="47" />
-          <folding>
-            <marker date="1509398373121" expanded="true" signature="1194:1244" ph="SELECT * FRO... admin" />
-            <marker date="1509398373121" expanded="true" signature="1410:1477" ph="UPDATE admin... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnregistrementReponse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="140" lean-forward="false" selection-start-line="16" selection-start-column="136" selection-end-line="16" selection-end-column="140" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnregistrementReponseCodePromo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginProcess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orga/orga.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3344">
-          <caret line="152" column="58" lean-forward="false" selection-start-line="152" selection-start-column="58" selection-end-line="152" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vues/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vues/js/jqwery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vues/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23342">
-          <caret line="1061" column="40" lean-forward="false" selection-start-line="1061" selection-start-column="40" selection-end-line="1061" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/controlCode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modeles/controlCode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/soiree(1).sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modeles/chargementDesPhotos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vues/controlCode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConexionBDD.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="51" lean-forward="false" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orga/objAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2530">
-          <caret line="115" column="47" lean-forward="true" selection-start-line="105" selection-start-column="16" selection-end-line="115" selection-end-column="47" />
-          <folding>
-            <marker date="1509398373121" expanded="true" signature="1194:1244" ph="SELECT * FRO... admin" />
-            <marker date="1509398373121" expanded="true" signature="1410:1477" ph="UPDATE admin... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/controlCode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modeles/controlCode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnregistrementReponse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginProcess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orga/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="1139" column="27" lean-forward="false" selection-start-line="1139" selection-start-column="27" selection-end-line="1139" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnregistrementReponseCodePromo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="4378">
+          <caret line="199" lean-forward="true" selection-start-line="199" selection-end-line="199" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/orga/setAsPayed.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding />
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orga/orga.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6864">
+          <caret line="312" column="42" selection-start-line="312" selection-start-column="42" selection-end-line="312" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnregistrementReponseCodePromo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modeles/objects/ReponseManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="85" column="56" selection-start-line="85" selection-start-column="56" selection-end-line="85" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vues/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1936">
+          <caret line="88" column="49" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EnregistrementReponseRally.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orga/orga.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="312" column="42" lean-forward="false" selection-start-line="312" selection-start-column="42" selection-end-line="312" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vues/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="78" column="61" lean-forward="false" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vues/js/jqwery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-          <folding />
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Modeles/objects/Reponse.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="199" column="0" lean-forward="true" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="286">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vues/css/style.css">
+    <entry file="file://$PROJECT_DIR$/ConexionBDD.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="1089" column="1" lean-forward="false" selection-start-line="1089" selection-start-column="1" selection-end-line="1089" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="22">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Modeles/objects/ReponseManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="85" column="56" lean-forward="false" selection-start-line="85" selection-start-column="56" selection-end-line="85" selection-end-column="56" />
+        <state relative-caret-position="1672">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orga/objAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2530">
+          <caret line="115" column="47" lean-forward="true" selection-start-line="105" selection-start-column="16" selection-end-line="115" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnregistrementReponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="140" selection-start-line="16" selection-start-column="136" selection-end-line="16" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnregistrementReponseCodePromo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginProcess.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orga/orga.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3344">
+          <caret line="152" column="58" selection-start-line="152" selection-start-column="58" selection-end-line="152" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vues/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1936">
+          <caret line="88" column="49" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnregistrementReponseRally.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modeles/objects/Reponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConexionBDD.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modeles/objects/ReponseManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orga/objAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2530">
+          <caret line="115" column="47" lean-forward="true" selection-start-line="105" selection-start-column="16" selection-end-line="115" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnregistrementReponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="140" selection-start-line="16" selection-start-column="136" selection-end-line="16" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnregistrementReponseCodePromo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginProcess.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orga/orga.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3344">
+          <caret line="152" column="58" selection-start-line="152" selection-start-column="58" selection-end-line="152" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vues/home.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vues/js/jqwery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vues/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23342">
+          <caret line="1061" column="40" selection-start-line="1061" selection-start-column="40" selection-end-line="1061" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/controlCode.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modeles/controlCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soiree(1).sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modeles/chargementDesPhotos.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orga/objAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2530">
+          <caret line="115" column="47" lean-forward="true" selection-start-line="105" selection-start-column="16" selection-end-line="115" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginProcess.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orga/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="1139" column="27" selection-start-line="1139" selection-start-column="27" selection-end-line="1139" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orga/setAsPayed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/controlCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modeles/objects/Reponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5250">
+          <caret line="215" selection-start-line="215" selection-end-line="215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vues/controlCode.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnregistrementReponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnregistrementReponseCodePromo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orga/orga.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" column="140" selection-start-line="96" selection-start-column="140" selection-end-line="96" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modeles/objects/ReponseManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
           <folding>
-            <marker date="1509916683039" expanded="true" signature="622:867" ph="INSERT INTO reponse... " />
-            <marker date="1509916683039" expanded="true" signature="1830:1863" ph="SELECT * FRO... reponse" />
-            <marker date="1509916683039" expanded="true" signature="2984:3051" ph="UPDATE repon... " />
+            <marker date="1516446057801" expanded="true" signature="622:887" ph="INSERT INTO reponse... " />
+            <marker date="1516446057801" expanded="true" signature="1932:1965" ph="SELECT * FRO... reponse" />
+            <marker date="1516446057801" expanded="true" signature="3150:3217" ph="UPDATE reponse... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConexionBDD.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modeles/controlCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnregistrementReponseRally.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vues/js/jqwery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="59" column="52" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vues/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="869" column="36" selection-start-line="869" selection-start-column="36" selection-end-line="869" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vues/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="431" column="10" lean-forward="true" selection-start-line="431" selection-start-column="10" selection-end-line="431" selection-end-column="10" />
         </state>
       </provider>
     </entry>

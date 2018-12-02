@@ -47,4 +47,18 @@ $('.return-to-main-menu').click(function(){
 
 $(document).ready(function(){
     $('.img-container').css('max-height', $(window).height());
+
+    $(window).scroll(function() {
+        console.log('scroll');
+        console.log($(window).scrollTop());
+        if($(window).scrollTop() === 0) {
+            $('.navbar').css({
+                'background-color': 'rgba(0,0,0,0)'
+            });
+        } else {
+            $('.navbar').css({
+                'background-color': 'rgba(0,0,0,0.7)'
+            });
+        }
+    });
 });

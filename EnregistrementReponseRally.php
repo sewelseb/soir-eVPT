@@ -16,9 +16,10 @@ $reponse->setNom($_POST['nom']);
 $reponse->setPrenom($_POST['prenom']);
 $reponse->setEmail($_POST['mail']);
 $reponse->setRally($_POST['rally']);
+$reponse->setPresence($_POST['presence']);
 
 $reponseManager = new ReponseManager();
 $reponse->setId($reponseManager->save($reponse, $bdd));
 
-$message='Merci '.$reponse->getPrenom().'. Votre réponse à bien été prise en compte';
+$message='Merci '.$reponse->getPrenom().'. Votre réponse a bien été prise en compte';
 include ('Vues/home.php');

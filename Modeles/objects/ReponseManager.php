@@ -34,8 +34,8 @@ class ReponseManager
     {
         $PDO->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $stmt = $PDO->prepare("INSERT INTO reponse 
-                  (response_type, titre, nom, prenom, email, code_promo, rally, code_de_payement, birthday) 
-          VALUES (:response_type, :titre, :nom, :prenom, :email, :code_promo, :rally, :code_de_payement, :birthday)");
+                  (response_type, titre, nom, prenom, email, code_promo, rally, code_de_payement, birthday, present) 
+          VALUES (:response_type, :titre, :nom, :prenom, :email, :code_promo, :rally, :code_de_payement, :birthday, :presence)");
 
         $type = $reponse->getType();
         $titre = $reponse->getTitre();
@@ -45,6 +45,7 @@ class ReponseManager
         $codePromo = $reponse->getCodePromo();
         $rally = $reponse->getRally();
         $codeDePayement = $reponse->getCodeDePayement();
+        $presence = $reponse->getPresence();
         $stmt->execute(array(
             ':response_type' => $type,
             ':titre'=>  $titre,
@@ -54,7 +55,8 @@ class ReponseManager
             ':code_promo'=> $codePromo,
             ':rally'=> $rally,
             ':code_de_payement'=> $codeDePayement,
-            ':birthday' =>$reponse->getBirthday()
+            ':birthday' =>$reponse->getBirthday(),
+            ':presence' =>$presence
         ));
 //        echo "\nPDO::errorInfo():\n";
 //        var_dump($PDO->errorInfo());
@@ -84,12 +86,13 @@ class ReponseManager
                 $reponse->setCodePromo($clientBdd['code_promo']);
                 $reponse->setBirthday($clientBdd['birthday']);
                 $reponse->setPayed($clientBdd['payed']);
+                $reponse->setPresence($clientBdd['present']);
 
 
 
 
                 $liste[$i]=$reponse;
-                echo 'truc';
+                //echo 'truc';
 
                 $i++;
             }
