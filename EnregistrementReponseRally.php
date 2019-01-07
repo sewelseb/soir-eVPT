@@ -35,11 +35,13 @@ $textMessage = 'Bonjour '.$reponse->getPrenom().',
                 Bien à vous,
                 
                 L\'équipe organisatrice de la soirée Vacances Pour Tous
+                
+                Event Facebook: https://www.facebook.com/events/2340446512649714/
                 ';
 
 try {
     $emailSender = new EmailClient();
-    $emailSender->sendMail($reponse->getEmail(), 'Confirmaion de votre inscription à la soirée VPT', $textMessage);
+    $emailSender->sendMail($reponse->getEmail(), 'Confirmation de votre inscription à la soirée VPT', $textMessage);
 }catch (Exception $e) {
     $message = "Le mail de confirmation n'a pas pu être envoyé <br/>";
 }

@@ -18,7 +18,7 @@ $reponse->setId($reponseManager->save($reponse, $bdd));
 
 $textMessage = 'Bonjour '.$reponse->getPrenom().',
 
-                Pour valider votre inscription, veuillez verser 17€ sur le compte n° BE68 3100 4945 5134 avec en comunication le code suivant: vpt-'.$reponse->getId().' .
+                Pour valider votre inscription, veuillez verser 17€ sur le compte n° BE25 3631 8264 5582 avec en comunication le code suivant: vpt-'.$reponse->getId().' .
 
                 Nous serons ravis de vous voir le 16 février 2019.
                 
@@ -30,18 +30,20 @@ $textMessage = 'Bonjour '.$reponse->getPrenom().',
                 
                 Bien à vous,
                 
-                L\'équipe organisatrice de la soirée Vacances Pour Tous
+                L\'équipe organisatrice de la soirée Vacances Pour Tous,
+                
+                Event Facebook: https://www.facebook.com/events/2340446512649714/
                 ';
 $message = "";
 
 try {
     $emailSender = new EmailClient();
-    $emailSender->sendMail($reponse->getEmail(), 'Confirmaion de votre inscription à la soirée VPT', $textMessage);
+    $emailSender->sendMail($reponse->getEmail(), 'Confirmation de votre inscription à la soirée VPT', $textMessage);
 }catch (Exception $e) {
     $message = "Le mail de confirmation n'a pas pu être envoyé <br/>";
 }
 
 $message.= 'Merci '.$reponse->getPrenom().'.
-    Pour valider votre inscription, veuillez verser 17€ sur le compte BE68 3100 4945 5134 avec en comunication le code suivant: <strong>vpt-'.$reponse->getId().'</strong>';
+    Pour valider votre inscription, veuillez verser 17€ sur le compte BE25 3631 8264 5582 avec en comunication le code suivant: <strong>vpt-'.$reponse->getId().'</strong>';
 
 include ('Vues/home.php');

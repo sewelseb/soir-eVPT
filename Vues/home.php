@@ -18,7 +18,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-    <title>VPT un cable | VPT</title>
+    <title>VPT le son | VPT</title>
     <!-- Bootstrap core CSS -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -153,7 +153,7 @@
                                             <button class="btn btn-primary btn-lg btn-main btn-rally">Rallye</button>
                                         </div>
                                         <div class="col-lg-4">
-                                            <button class="btn btn-primary btn-lg btn-main  btn-register-form">Autre</button>
+                                            <button class="btn btn-primary btn-lg btn-main  btn-register-form">Acheter une place</button>
                                         </div>
                                     </div>
                                 </div>
@@ -221,9 +221,10 @@
                                         <select class="form-control " name="rally" required>
                                             <option value="Sunshine">Sunshine</option>
                                             <option value="Twins">Twins</option>
-                                            <option value="Rafiki">Rafiji</option>
+                                            <option value="Rafiki">Rafiki</option>
                                             <option value="No Name">No Name</option>
                                             <option value="Freestyle">Freestyle</option>
+                                            <option value="Fun Time">Fun Time</option>
                                         </select>
 
                                     </div>
@@ -298,7 +299,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="section-title">
-                    <h2><b class="bhFont">Soirée VPT un câble</b></h2>
+                    <h2><b class="bhFont">Soirée VPT le son</b></h2>
 
                 </div>
                 <div class="text-center">
@@ -315,9 +316,9 @@
                     <a href="https://www.instagram.com/soireevpt/">
                         <img src="Vues/Photos/insta.png" style="height: 50px;">
                     </a>
-<!--                    <a href="https://www.facebook.com/events/1976931835897313/">-->
-<!--                        <img src="Vues/Photos/fb.png" style="height: 80px;">-->
-<!--                    </a>-->
+                    <a href="https://www.facebook.com/events/2340446512649714/">
+                        <img src="Vues/Photos/fb.png" style="height: 80px;">
+                    </a>
                 </div>
 
             </div>
@@ -383,7 +384,7 @@
 
                     <p>
                         Tenue de soirée<br/>
-                        Touche rock
+                        Touche musicale
                     </p>
 
                 </div>
@@ -405,6 +406,7 @@
         <div class="row ">
             <div class="col-md-12 text-center">
                 <H3 class="section-text">
+                    Sounds and lights by ONCE<br><br>
                     Animation by Make it Pop<br><br>
 <!--                    Sound and Light by Audeo<br><br>-->
                     Graphisme by Gaëtane Henry de Frahan<br><br>
@@ -415,6 +417,13 @@
         <div class="row ">
             <div class="col-md-offset-4 col-md-4">
                 <a href="http://www.makeitpop.be/"><img class="img-responsive" src="Vues/Photos/mip.png"></a>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-offset-4 col-md-4">
+                <a href="http://weonlyliveonce.be">
+                    <img class="img-responsive" src="Vues/Photos/once.png">
+                </a>
             </div>
         </div>
 <!--        <div class="row ">-->
@@ -439,12 +448,80 @@
                 </div>
             </div>
         </div>
+        <div class="row ">
+            <div class="col-md-offset-4 col-md-4">
+                <a href="https://www.coralli.be/"><img class="img-responsive" src="Vues/Photos/corali.jpg"></a>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-offset-4 col-md-4">
+                <a href="https://www.banquedeluxembourg.com/fr/bank/corporate/homepage"><img class="img-responsive" src="Vues/Photos/banque-de-lux.png"></a>
+            </div>
+        </div>
         <div>
             <div class="section-title text-center" style="margin-top: 20px">
                 <a href="mailto:soiree@vpt.be"><h3><b class="bhFont">Get your logo here</b></h3></a>
             </div>
         </div>
     </div><!-- end container -->
+</section>
+
+<section id="about" class="light-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="section-title">
+                    <h2><b class="bhFont">Tombola</b></h2>
+
+                </div>
+                <div class="text-center">
+                    <!--                    <div class="hidden-xs">-->
+                    <!--                        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvacancespourtous.asbl%2Fvideos%2F1625753627483697%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>-->
+                    <!--                    </div>-->
+                    <!--                    <div class="visible-xs">-->
+                    <!--                        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvacancespourtous.asbl%2Fvideos%2F1625753627483697%2F&show_text=0&width=560" width="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>-->
+                    <!--                    </div>-->
+                    <!--                    <div class="text-center">-->
+                    <!--                        Si la vidéo ne s'affiche pas, vérifiez que vous êtes connecté à Facebook.-->
+                    <!--                    </div>-->
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <H3 class="section-text">
+                   <a href="https://www.natachademahieu.com/index">
+                       Natacha de Mahieu (shooting photo)
+                   </a>
+                </H3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <a href="https://www.facebook.com/louiseullensdeschooten/">
+                    <img src="Vues/Photos/lus.jpg" style="max-width: 200px; margin-top: 15px;">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <a href="https://www.lasemo.be/">
+                    <img src="Vues/Photos/lasemo.png" style="max-width: 200px; margin-top: 15px;">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <a href="http://www.museeherge.com/">
+                    <img src="Vues/Photos/herge.png" style="max-width: 200px; margin-top: 15px;">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
 </section>
 
 
